@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-24",
+  "summary": "10月24日（周六）日报，资讯以10月23日公布及10月22日跨时区重大事件为主。Gilead拟以12.75亿美元收购PepStar的Phase I口服IL-23R资产项目（交割时支付、尚非到账）；Pathos与BMS/Tempus合作，其中Pathos对Tempus五年5500万美元为数据采购，而非授权收入；Pathos另获2.37亿美元E轮融资。Tango早期PDAC联用数据ORR82%（18/22）；Merck/Moderna黑色素瘤III期复发/死亡HR0.58、OS未成熟。美国拟议境外投资规则涉及部分生物技术投资，尚未生效。上证医药主题10月23日+2.09%，美国NBI约-1.13%，XBI-1.38%。",
+  "deals": [
+    {
+      "date": "2026-10-22",
+      "type": "资产项目收购",
+      "buyer": "Gilead Sciences",
+      "seller": "PepStar Therapeutics",
+      "asset": "HCXT-2001及口服IL-23R项目",
+      "technology": "口服大环肽IL-23R抑制剂",
+      "stage": "I期",
+      "territory": "全球",
+      "upfront_usd": 1275000000,
+      "upfront_detail": "交割时支付的现金对价，预计2026Q4交割，目前未确认已付款",
+      "paid_usd": null,
+      "near_term_usd": null,
+      "milestones_usd": null,
+      "total_potential_usd": 1275000000,
+      "royalty": "未披露",
+      "accounting_note": "这是项目收购而不是整家公司并购；不将未交割现金计为卖方已经收到；非确定性的其他对价未披露。",
+      "source_url": "https://www.gilead.com/news/news-details/2026/gilead-to-acquire-investigational-oral-il-23r-inhibitor-hcxt-2001-strengthening-its-inflammation-pipeline-in-ibd"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "AI研发战略合作及数据许可",
+      "parties": [
+        "Pathos AI",
+        "Bristol Myers Squibb",
+        "Tempus AI"
+      ],
+      "asset": "Pathos Foundry及神经疾病纵向患者数据集",
+      "technology": "AI疾病进展建模/临床开发",
+      "stage": "技术平台",
+      "territory": "未披露",
+      "upfront_usd": null,
+      "paid_usd": null,
+      "near_term_usd": null,
+      "milestones_usd": null,
+      "total_potential_usd": null,
+      "data_license_contract_value_usd": 55000000,
+      "data_license_payer": "Pathos AI",
+      "data_license_recipient": "Tempus AI",
+      "data_license_term_years": 5,
+      "royalty": "未披露",
+      "accounting_note": "5500万美元是Pathos采购Tempus数据的合同金额，不是BMS付给Pathos的首付款；BMS合作对价未披露。",
+      "source_url": "https://www.pathos.com/pathos-ai-announces-strategic-collaborations-with-bristol-myers-squibb-and-tempus-ai-to-advance-ai-driven-drug-development-beginning-with-alzheimers-disease-and-other-neurological-conditions"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-10-23",
+      "type": "一级融资",
+      "company": "Pathos AI",
+      "event": "Series E融资2.37亿美元，披露投后估值约30亿美元，BMS领投。",
+      "amount_usd": 237000000,
+      "post_money_usd": 3000000000,
+      "fund_impact": "融资交易可作为个别公司市场估值证据，需比较股权类别和权益条款；股权融资不计营业收入。",
+      "source_url": "https://kelo.com/2026/10/23/pathos-ai-teams-up-with-bristol-myers-and-tempus-ai-to-advance-drug-development/"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "一级融资",
+      "company": "Star Therapeutics",
+      "event": "公布2亿美元私募融资，将支持临床前资产推进临床。",
+      "amount_usd": 200000000,
+      "fund_impact": "改善融资可得性与预期现金跑道；不可把此前7月Vega被收购事件视为今天并购。",
+      "source_url": "https://star-therapeutics.com/star-therapeutics-announces-200-million-private-financing-to-advance-pipeline-of-best-in-disease-therapies-2/"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "IPO",
+      "company": "Lycia Therapeutics",
+      "event": "IPO定价每股18美元，1764万股，预计毛募资约3.175亿美元，10月23日挂牌，预计10月26日交割。",
+      "expected_gross_proceeds_usd": 317520000,
+      "fund_impact": "定价可作上市可比参考，但尚待交割；毛募资非净募资也非截至23日确认到账。",
+      "source_url": "https://ir.lyciatx.com/news-releases/news-release-details/lycia-therapeutics-announces-pricing-upsized-initial-public"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "临床数据及安全性",
+      "company": "Tango Therapeutics",
+      "asset": "vopimetostat + daraxonrasib",
+      "stage": "I/II期",
+      "indication": "MTAP缺失、RAS突变转移性胰腺癌",
+      "event": "22名可评估二/三线患者ORR 82%（18/22），9个月PFS率88%；高剂量组出现剂量限制性毒性。",
+      "fund_impact": "改善机制验证但样本量小，安全性/剂量及未来III期所需资金仍需折价评估。",
+      "source_url": "https://ir.tangotx.com/news-releases/news-release-details/tango-presents-promising-results-phase-12-study-vopimetostat-and"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "临床III期",
+      "company": "Merck / Moderna",
+      "asset": "intismeran autogene + pembrolizumab",
+      "indication": "术后高危黑色素瘤",
+      "event": "INTerpath-001复发/死亡HR 0.58，远端转移/死亡HR 0.62；OS数据尚不成熟。",
+      "fund_impact": "提高个体化mRNA肿瘤疗法验证程度，但仍未上市，不能认为已证明OS获益。",
+      "source_url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "中国NMPA获批披露",
+      "company": "Harbour BioMed / CSPC",
+      "asset": "batoclimab SC",
+      "indication": "AChR抗体阳性成人全身型重症肌无力",
+      "event": "NMPA批准FcRn单抗皮下注射剂。",
+      "fund_impact": "从临床注册风险进入医保、定价、商业化风险阶段，注意竞争格局。",
+      "source_url": "https://en.prnasia.com/releases/global/harbour-biomed-receives-china-nmpa-approval-of-batoclimab-injection-subcutaneous-injection-for-the-treatment-of-generalized-myasthenia-gravis-552912.shtml"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "美国拟议监管",
+      "event": "美国财政部拟议扩展境外投资安全规则至部分敏感生物技术，尚未正式生效，意见征集至2026-12-07。",
+      "fund_impact": "对跨境股权、债权、JV/NewCo投资与退出方案做交易结构核查；不要直接等同于所有常规现金许可均被禁止。",
+      "source_url": "https://home.treasury.gov/news/press-releases/sb0667/"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "终止试验/临床安全性追踪",
+      "company": "Aardvark Therapeutics",
+      "asset": "ARD-101",
+      "event": "FDA于10月22日解除clinical hold；10月23日公司公布提前终止的Phase III HERO/OLE探索性数据，原III期试验没有按原方案恢复。",
+      "fund_impact": "解除hold缓释部分监管风险，但原试验提前终止、潜在心电安全风险、重启方案及追加资金仍是减值和现金跑道关注点。",
+      "source_url": "https://ir.aardvarktherapeutics.com/news-events/news-releases"
+    },
+    {
+      "date": "2026-10-22",
+      "type": "临床监管/安全性",
+      "company": "Arbutus Biopharma",
+      "asset": "AB-101",
+      "event": "FDA解除口服PD-L1抑制剂用于慢性乙肝的IND临床暂停；后续开发计划仍在评估。",
+      "fund_impact": "属于去风险事件，不等同FDA上市批准，也不必然触发整体FV大幅调增。",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1447028/000117184326006753/exh_991.htm"
+    }
+  ],
+  "indices": [
+    {
+      "name": "上证医药主题指数",
+      "ticker": "SSEHCTI",
+      "market": "A股",
+      "trade_date": "2026-10-23",
+      "close": 7213.6,
+      "change_pct": 2.09,
+      "currency": "CNY",
+      "source_url": "https://cn.investing.com/indices/sse-health-care-theme-historical-data"
+    },
+    {
+      "name": "恒生生物科技指数",
+      "ticker": "HSBIO",
+      "market": "港股",
+      "trade_date": "2026-10-23",
+      "close": null,
+      "change_pct": null,
+      "note": "截至检索未取得一致的10月23日终盘官方报价，避免用盘中值冒充收盘。",
+      "source_url": "https://www.hsi.com.hk/en-hk/indexes/all-indexes/index-details/?seriesCode=hsbio"
+    },
+    {
+      "name": "华泰柏瑞恒生生物科技ETF",
+      "ticker": "513930",
+      "market": "A股上市/跟踪港股生物科技",
+      "trade_date": "2026-10-23",
+      "close": 0.966,
+      "change_pct": 2.22,
+      "currency": "CNY",
+      "note": "ETF价格不是HSBIO指数点位或指数涨跌幅，含场内折溢价及汇率影响",
+      "source_url": "https://cn.investing.com/etfs/513930-historical-data"
+    },
+    {
+      "name": "NASDAQ Biotechnology Index",
+      "ticker": "NBI",
+      "market": "美股",
+      "trade_date": "2026-10-23",
+      "close": 6992.35,
+      "change_pct": -1.13,
+      "currency": "USD",
+      "note": "Nasdaq网页当日不同页面快照存在差异；此为历史页面附近值及报价站对应值，参考使用。",
+      "source_url": "https://indexes.nasdaq.com/Index/History/NBI"
+    },
+    {
+      "name": "SPDR S&P Biotech ETF",
+      "ticker": "XBI",
+      "market": "美股ETF",
+      "trade_date": "2026-10-23",
+      "close": 149.54,
+      "change_pct": -1.38,
+      "currency": "USD",
+      "source_url": "https://www.closelook.io/indices/stock/xbi/price-history/"
+    }
+  ]
+}

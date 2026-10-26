@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-25",
+  "summary": "2026年10月25日（周日）最新可核验事件以10月24日ESMO大会临床数据为主：阿斯利康VOLGA III期显示围手术期度伐利尤单抗联合术前EV在特定肌层浸润性膀胱癌中EFS HR 0.51、OS HR 0.58；FOURLIGHT-1 II期显示选择性CDK4方案PFS 9.4对6.6个月；KEYNOTE-B49 III期PFS虽改善但无OS获益。前一交易日Bolt以换股方式收购Prana并约定1.2亿美元PIPE（预计10月26日交割），另有最多6000万美元认股权证潜在融资，不是License首付款或已到账现金。10月23日A股医药反弹、美股生物技术回落。周末未核实到需新增入库的重大中国/全球License-out、License-in或NewCo交易；医保目录最新官方进展仍为10月20日协议签署提醒。",
+  "deals": [
+    {
+      "date": "2026-10-23",
+      "type": "Stock-for-stock reverse merger and parallel PIPE financing",
+      "parties": "Bolt Biotherapeutics / Prana Therapies",
+      "buyer": "Bolt Biotherapeutics",
+      "seller": "Prana Therapies",
+      "asset": "PRA-216 / INSPIRE multispecific antibody platform",
+      "technology": "IL-4Rα/TSLP bispecific IgG antibody; multispecific antibodies",
+      "stage": "Phase II (asthma, COPD, atopic dermatitis); EoE Phase II planned",
+      "territory": "未披露地域授权；本项为公司换股并购而非License",
+      "upfront": "并购为股份对价，未披露现金首付款；PIPE拟募集毛额US$120m",
+      "near_term_payment": "US$120m PIPE gross proceeds, expected closing 2026-10-26",
+      "paid_amount": "截至2026-10-25未证实PIPE交割到账",
+      "total": "不适用License总对价；US$120m PIPE + 最多US$60m潜在权证行权款并非并购价",
+      "milestones": "未披露商业/临床里程碑支付；权证行权不属于License milestone",
+      "royalty": "未披露；非授权交易",
+      "financing_gross_usd": 120000000,
+      "potential_warrant_proceeds_usd": 60000000,
+      "impact": "拟融资可支持现金跑道至2028年，但应以实际交割和净募资核实现金流；换股并购应分析持股稀释及权益估值，不得把潜在行权收入视为已到账或BD收入。",
+      "url": "https://investors.boltbio.com/news-releases/news-release-details/bolt-biotherapeutics-announces-acquisition-prana-therapies-and"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-10-24",
+      "category": "Phase III positive / ESMO",
+      "title": "AstraZeneca VOLGA：Imfinzi+EV膀胱癌EFS与OS双阳性",
+      "company": "AstraZeneca",
+      "asset": "durvalumab + enfortumab vedotin",
+      "stage": "Phase III",
+      "indication": "肌层浸润性膀胱癌，不能或拒绝顺铂方案患者",
+      "summary": "围手术期durvalumab加术前EV对比根治性膀胱切除术±获批辅助治疗：EFS HR=0.51，24个月EFS 64%对45%；OS HR=0.58，24个月OS 78%对69%。3/4级任何原因不良事件64%对44%；该新组合处于FDA优先审评，并非已获新适应症批准。",
+      "impact": "对ADC+ICI治疗组合及MIBC竞争格局提供强外部验证；rNPV可考虑提高同类方案临床成功概率，同时调整市场份额、毒性负担与临床后续现金投入。",
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/perioperative-imfinzi-plus-neoadjuvant-enfortumab-vedotin-reduced-risk-of-recurrence-by-49-and-risk-of-death-by-42-in-muscle-invasive-bladder-cancer.html"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "Phase II positive / ESMO",
+      "title": "FOURLIGHT-1：选择性CDK4抑制剂atirmociclib II期显示PFS获益",
+      "asset": "atirmociclib + fulvestrant",
+      "stage": "Randomized Phase II",
+      "indication": "既往CDK4/6抑制剂治疗进展后的HR+/HER2-晚期乳腺癌",
+      "summary": "中位PFS 9.4个月对6.6个月，HR=0.60；属于II期随机试验证据，不能当作III期注册成功。",
+      "impact": "提示CDK4选择性方案在耐药后具有潜力；提高早期研发可比性，但后续III期验证、资金需求和商业化不确定性仍高。",
+      "url": "https://oncodaily.com/breast-oncology/fourlight-1"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "Phase III mixed/negative / ESMO",
+      "title": "KEYNOTE-B49：PFS改善但OS未获益",
+      "asset": "pembrolizumab + chemotherapy",
+      "stage": "Phase III",
+      "indication": "PD-L1阳性HR+/HER2-晚期乳腺癌",
+      "summary": "中位PFS 6.7个月对6.0个月，HR=0.74，但未观察到总生存期改善；不能仅凭PFS显著判定商业化成功。",
+      "impact": "同适应症ICI联合疗法应审慎调整PoS和峰值销售假设，必要时评估估值下行或减值迹象。",
+      "url": "https://oncodaily.com/breast-oncology/keynote-b49-esmo26"
+    },
+    {
+      "date": "2026-10-24",
+      "original_announcement_date": "2026-10-22",
+      "category": "Phase III presentation follow-up / ESMO",
+      "title": "Merck/Moderna INTerpath-001 ESMO大会展示III期数据（10月22日已首次公告）",
+      "company": "Merck / Moderna",
+      "asset": "intismeran autogene + pembrolizumab",
+      "stage": "Phase III",
+      "summary": "黑色素瘤术后辅助治疗：复发或死亡HR=0.58；远端转移或死亡HR=0.62；OS数据未成熟。这是既有公告的ESMO会议展示，不重复视为10月24日首次公布。",
+      "impact": "支持个体化mRNA肿瘤免疫平台有效性判断，但需计入个性化生产能力、COGS、定价和监管时间。",
+      "url": "https://www.merck.com/news/merck-and-moderna-will-present-results-from-landmark-phase-3-interpath-001-trial-for-intismeran-autogene-plus-keytruda-pembrolizumab-at-esmo-2026-presidential-symposium/"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "China NHSA / regulatory follow-up",
+      "title": "2026医保目录及商保创新药目录正推进协议签署",
+      "summary": "国家医保局10月20日公告，9月谈判/竞价/价格协商已现场确认结果，相关企业可下载并签署协议。10月25日尚未核验到更新全国性目录公告。",
+      "impact": "医保准入与价格落地是现金流预测和峰值销售关键变量；不得将谈判或现场确认等同为已实际销售或现金回款。",
+      "url": "https://www.nhsa.gov.cn/art/2026/10/20/art_14_23170.html"
+    }
+  ],
+  "indices": [
+    {
+      "name": "上证医药主题指数",
+      "ticker": "SSEHCTI",
+      "market": "A股",
+      "date": "2026-10-23",
+      "close": 7213.6,
+      "change": 2.09,
+      "change_pct": 2.09,
+      "unit": "points",
+      "driver": "前一交易日大幅下跌后的反弹；单日反弹不足以直接证明private FV回升",
+      "url": "https://cn.investing.com/indices/sse-health-care-theme-historical-data"
+    },
+    {
+      "name": "恒生生物科技指数",
+      "ticker": "HSBIO",
+      "market": "港股",
+      "date": "2026-10-23",
+      "close": null,
+      "change": null,
+      "change_pct": null,
+      "unit": "points",
+      "driver": "未取得可交叉验证的10月23日指数准确收盘点位，不以ETF涨幅代替指数。",
+      "url": "https://www.hsi.com.hk/"
+    },
+    {
+      "name": "华安恒生生物科技ETF",
+      "ticker": "159102",
+      "market": "深交所上市跨境ETF",
+      "date": "2026-10-23",
+      "close": 0.763,
+      "change": 1.87,
+      "change_pct": 1.87,
+      "unit": "CNY",
+      "driver": "10月22日大跌6.14%后次日反弹；ETF收盘表现不等于港股HSBIO原指数涨跌。",
+      "url": "https://cn.investing.com/etfs/159102-historical-data"
+    },
+    {
+      "name": "NASDAQ Biotechnology Index",
+      "ticker": "NBI",
+      "market": "美股",
+      "date": "2026-10-23",
+      "close": 6992.4,
+      "change": -1.13,
+      "change_pct": -1.13,
+      "unit": "points",
+      "driver": "美股Biotech板块回落，体现短期风险偏好承压；不直接证明所有private资产估值下调。",
+      "url": "https://ca.investing.com/indices/nasdaq-biotechnology-historical-data"
+    },
+    {
+      "name": "SPDR S&P Biotech ETF",
+      "ticker": "XBI",
+      "market": "美股ETF",
+      "date": "2026-10-23",
+      "close": 149.54,
+      "change": -1.38,
+      "change_pct": -1.38,
+      "unit": "USD",
+      "driver": "与NBI同向下跌，可用于辅助观察上市Biotech风险偏好。",
+      "url": "https://ca.investing.com/etfs/spdr-s-p-biotech-historical-data"
+    }
+  ]
+}

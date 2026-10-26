@@ -1,0 +1,44 @@
+{
+  "year": 2025,
+  "coverage": "精选公开事件，非全年完整采集",
+  "records": [
+    {
+      "id": "H0007",
+      "year": 2025,
+      "date": "2025-06-02",
+      "category": "BD / Co-development",
+      "title": "BioNTech与BMS合作开发BNT327",
+      "company": "BioNTech / Bristol Myers Squibb",
+      "asset": "BNT327",
+      "technology": "PD-L1/VEGF-A双抗",
+      "stage": "临床阶段",
+      "upfront": "$1.5bn",
+      "milestones": "非或有周年款$2bn；或有里程碑最高$7.6bn",
+      "headline": "所有前款及潜在付款合计最高$11.1bn",
+      "royalty": "全球利润/亏损分享50:50",
+      "territory": "全球",
+      "notes": "$2bn周年付款属非或有约定，但并非签约当日支付；$7.6bn有条件。",
+      "source": "https://news.bms.com/news/details/2025/BioNTech-and-Bristol-Myers-Squibb-Announce-Global-Strategic-Partnership-to-Co-Develop-and-Co-Commercialize-Next-generation-Bispecific-Antibody-Candidate-BNT327-Broadly-for-Multiple-Solid-Tumor-Types/default.aspx",
+      "status": "原始公告已核对"
+    },
+    {
+      "id": "H0008",
+      "year": 2025,
+      "date": "2025-05-19",
+      "category": "BD / License",
+      "title": "辉瑞与三生制药达成SSGJ-707许可",
+      "company": "Pfizer / 3SBio",
+      "asset": "SSGJ-707",
+      "technology": "PD-1/VEGF双抗",
+      "stage": "临床阶段",
+      "upfront": "$1.25bn",
+      "milestones": "最高$4.8bn里程碑；另有$100m股权投资和中国权益选项（最高$150m）",
+      "headline": "许可upfront加里程碑最高$6.05bn（不含股权投资及可选中国权利）",
+      "royalty": "分层双位数销售提成",
+      "territory": "中国以外为主；中国扩展选项",
+      "notes": "股权投资不是许可首付款；不同口径的headline value不可简单相加。",
+      "source": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-enters-exclusive-licensing-agreement-3sbio",
+      "status": "原始公告已核对"
+    }
+  ]
+}

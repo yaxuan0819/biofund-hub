@@ -1,0 +1,44 @@
+{
+  "year": 2024,
+  "coverage": "精选公开事件，非全年完整采集",
+  "records": [
+    {
+      "id": "H0005",
+      "year": 2024,
+      "date": "2024-02-22",
+      "category": "并购",
+      "title": "阿斯利康完成收购亘喜生物",
+      "company": "AstraZeneca / Gracell",
+      "asset": "GC012F",
+      "technology": "BCMA/CD19双靶点CAR-T",
+      "stage": "临床阶段",
+      "upfront": "约$1.0bn交割现金",
+      "milestones": "潜在CVR最高约$0.2bn",
+      "headline": "最高潜在约$1.2bn",
+      "royalty": "不适用",
+      "territory": "整体公司收购",
+      "notes": "交割价约$1.0bn；潜在CVR必须与已支付金额分开。",
+      "source": "https://www.astrazeneca.com/media-centre/press-releases/2024/acquisition-of-gracell-completed.html",
+      "status": "原始公告已核对"
+    },
+    {
+      "id": "H0006",
+      "year": 2024,
+      "date": "2024-12-01",
+      "category": "BD / License",
+      "title": "默沙东取得LaNova LM-302/LM-299全球权益",
+      "company": "Merck / LaNova Medicines",
+      "asset": "LM-299 / MK-2010",
+      "technology": "PD-1/VEGF双特异性抗体",
+      "stage": "临床阶段",
+      "upfront": "$588m（2025年1月支付）",
+      "milestones": "技术转移$300m；研发最高$140m；监管最高$860m；销售最高$1.4bn",
+      "headline": "上述项目合计最高约$3.288bn",
+      "royalty": "未在该年报摘要列示",
+      "territory": "全球",
+      "notes": "许可2024年12月交割，前款实际2025年1月支付；不等同2024年到账。",
+      "source": "https://www.sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm",
+      "status": "月份已核实；日期按月记"
+    }
+  ]
+}

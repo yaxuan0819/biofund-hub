@@ -1,0 +1,192 @@
+{
+  "date": "2026-10-26",
+  "summary": "截至北京时间2026-10-26 10:43：ESMO重点是阿斯利康CLDN18.2 ADC Sone-Ve全球III期总生存期获益（2L+ OS HR 0.58、3L+ OS HR 0.47；共同主要终点之一BICR PFS未达统计学显著性）、和黄医药/阿斯利康SAFFRON III期PFS HR 0.55及OS HR 0.68双阳性，以及劲方GFH276 Ia期初步ORR数据。最近的重要交易为Gilead拟以12.75亿美元交割现金收购PepStar口服IL-23R项目、Bolt换股收购Prana并拟完成1.2亿美元PIPE。10月26日尚无完整收盘行情，指数统一使用2026-10-23数据。",
+  "deals": [
+    {
+      "date": "2026-10-22",
+      "type": "Asset acquisition / 中国来源资产出海",
+      "parties": "PepStar Therapeutics（瀚辰星泰） → Gilead Sciences",
+      "asset": "HCXT-2001及口服IL-23R抑制剂项目",
+      "technology": "口服大环肽IL-23R抑制剂",
+      "stage": "临床阶段",
+      "territory": "全球权益",
+      "upfront": "12.75亿美元现金对价，预计交割时支付（尚未确认到账）",
+      "near_term_payment": "预计2026年第四季度交割",
+      "milestones": "未披露",
+      "total": "公告披露现金收购价12.75亿美元；并非已支付金额",
+      "royalty": "未披露",
+      "paid_amount": "尚未确认到账",
+      "impact": "须按交易资产或股权法律主体核对实际出售方、交割条件和基金持有路径；预计现金收益不能在交割前按已实现退出入账。",
+      "url": "https://investors.gilead.com/news/news-details/2026/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD/default.aspx"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "M&A / PIPE融资",
+      "parties": "Bolt Biotherapeutics / Prana Therapies",
+      "asset": "PRA-216，IL-4Rα/TSLP双特异性抗体",
+      "technology": "长半衰期双抗",
+      "stage": "II期",
+      "territory": "非License交易，不适用",
+      "upfront": "换股并购，无单独披露现金收购首付款",
+      "near_term_payment": "1.20亿美元PIPE，预期2026-10-26交割；不属于并购对价",
+      "milestones": "未披露/不适用",
+      "total": "不适用；潜在额外6000万美元取决于权证行权",
+      "royalty": "不适用",
+      "paid_amount": "PIPE截至统计时点未核实到账",
+      "impact": "并购换股比例与融资增发均可能导致稀释；PIPE实际到账后才能改善现金余额与runway，权证收入属于或有融资。",
+      "url": "https://finance.yahoo.com/healthcare/articles/bolt-biotherapeutics-announces-acquisition-prana-130800678.html"
+    },
+    {
+      "date": "2026-10-19",
+      "type": "License-out / 周度重要交易回顾",
+      "parties": "豪森药业 Hansoh Pharma → Roche",
+      "asset": "两项临床前ADC及多个平台ADC项目",
+      "technology": "ADC平台",
+      "stage": "临床前",
+      "territory": "罗氏取得大中华区以外权益；豪森保留中国内地、香港、澳门、台湾权益",
+      "upfront": "4.00亿美元（合同约定，非已确认到账）",
+      "near_term_payment": "首个周年付款1.10亿美元",
+      "milestones": "研发/监管/商业里程碑潜在超过150亿美元",
+      "total": "4亿美元首付 + 1.1亿美元周年付款 + 潜在超过150亿美元里程碑，未计销售提成",
+      "royalty": "分级销售提成，具体比例未披露",
+      "paid_amount": "未核实到账",
+      "impact": "headline value高度依赖后续项目成功；收入确认应依各履约义务、交易价格可变对价约束和合同条件确定，不能全额确认。",
+      "url": "https://www.hspharm.com/news/news-detail-513518.htm"
+    },
+    {
+      "date": "2026-10-19",
+      "type": "BD合作 / 周度重要交易回顾",
+      "parties": "METiS TechBio 剂泰科技 → Eli Lilly 礼来",
+      "asset": "组织特异性LNP药物递送平台",
+      "technology": "AI优化脂质纳米颗粒LNP",
+      "stage": "平台研发",
+      "territory": "原始公告未明确具体授权地域",
+      "upfront": "千万美元低段至数千万美元区间（原文low double-digit millions；未披露精确值）",
+      "near_term_payment": "未披露",
+      "milestones": "最高约11亿美元研发/监管/商业里程碑",
+      "total": "不应将约11亿美元里程碑误作全部确定对价",
+      "royalty": "单个位数百分比阶梯销售提成，具体比例未披露",
+      "paid_amount": "未核实到账",
+      "impact": "平台商业化仍早期；现金跑道改善取决于首款到账，远期里程碑需折现及概率调整。",
+      "url": "https://metistechbio.com/en/qyxw/253.html"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-10-26",
+      "category": "临床 / ESMO / Ia期",
+      "title": "劲方医药GFH276口服泛RAS抑制剂公布早期疗效及安全性",
+      "summary": "10月25日在ESMO报告、10月26日公司发布：61名可评估胰腺癌患者ORR 41.1%；11名可评估NSCLC患者ORR 45.5%；40-160 mg QD无预防用药时未观察到DLT。为剂量递增早期非对照研究，不能与III期直接比较。",
+      "impact": "提高泛RAS早期技术关注度；须审视小样本、不设对照及后续入组、融资和联用开发风险。",
+      "url": "https://www.genfleet.com/press_release-237"
+    },
+    {
+      "date": "2026-10-25",
+      "category": "临床 / ESMO / III期",
+      "title": "阿斯利康Sone-Ve（CLDN18.2 ADC）CLARITY-Gastric01 OS受益",
+      "summary": "二线及以后中位OS 10.6 vs 6.4个月，HR 0.58；三线及以后中位OS 10.0 vs 5.0个月，HR 0.47。共同主要终点之一BICR PFS未达到统计显著性（p=0.053193）。",
+      "impact": "可支持相关ADC项目同靶点临床参照和BD议价评估，但不能忽视PFS未达标及不同检测阈值/人群差异。",
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/sonesitatug-vedotin-reduced-the-risk-of-death-by-42-pct-in-2nd-and-later-line-cldn182-positive-advanced-gastricgej-cancers-in-clarity-gastric01.html"
+    },
+    {
+      "date": "2026-10-25",
+      "category": "临床 / ESMO / III期",
+      "title": "SAFFRON：奥希替尼+赛沃替尼改善EGFR/MET耐药肺癌生存",
+      "summary": "中位PFS 7.6 vs 5.4个月，HR 0.55；中位OS 17.8 vs 12.9个月，HR 0.68。",
+      "impact": "提高MET驱动EGFR耐药联合方案的临床竞争门槛，相关项目应重估市场份额和开发周期。",
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/tagrisso-plus-orpathys-reduced-progression-or-death-risk-by-45-and-death-risk-by-32-in-met-driven-egfrm-nsclc-after-progression-on-tagrisso.html"
+    },
+    {
+      "date": "2026-10-24",
+      "category": "临床 / ESMO / III期",
+      "title": "VOLGA：围手术期度伐利尤单抗联合术前EV改善EFS和OS",
+      "summary": "肌层浸润性膀胱癌III期：EFS HR 0.51、OS HR 0.58；24个月EFS 64% vs 45%，OS 78% vs 69%。",
+      "impact": "为ADC+免疫联合治疗提供积极的注册性临床参照，但应避免跨适应症机械抬升估值。",
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/perioperative-imfinzi-plus-neoadjuvant-enfortumab-vedotin-reduced-risk-of-recurrence-by-49-and-risk-of-death-by-42-in-muscle-invasive-bladder-cancer.html"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "中国监管 / NMPA获批",
+      "title": "巴托利单抗皮下注射液在华获批用于特定gMG成人患者",
+      "summary": "NMPA批准巴托利单抗（anti-FcRn）治疗抗AChR抗体阳性的成人全身型重症肌无力；和铂医药发布公司公告。",
+      "impact": "由研发进入商业化：关注患者可及性、医保准入、商业销售、库存和应收款，不等于批准日即实现收入。",
+      "url": "https://www.prnewswire.com/news-releases/harbour-biomed-receives-china-nmpa-approval-of-batoclimab-injection-subcutaneous-injection-for-the-treatment-of-generalized-myasthenia-gravis-302917545.html"
+    },
+    {
+      "date": "2026-10-22",
+      "category": "中国监管 / NMPA获批",
+      "title": "百奥泰司库奇尤单抗生物类似药获得药品注册证书",
+      "summary": "司库奇尤单抗注射液（优卓美）获批银屑病、强直性脊柱炎及银屑病关节炎适应症。",
+      "impact": "关注生物类似药定价、竞争与医保/集采风险；估值逐步转向销量、毛利和商业化支出。",
+      "url": "https://www.nbd.com.cn/articles/2026-10-22/4613009.html"
+    },
+    {
+      "date": "2026-10-20",
+      "category": "中国医保政策 / 进展回顾",
+      "title": "2026年医保与商保创新药目录调整进入协议签署阶段",
+      "summary": "国家医保局通报9月谈判、竞价、价格协商已现场确认，企业可登录平台下载并签署协议；截至本次核验未视为最终目录正式公布。",
+      "impact": "商业化药物应在协议、最终支付标准及执行日期明确后更新净价/销量假设，不能将谈判确认直接视为现金收入。",
+      "url": "https://www.nhsa.gov.cn/art/2026/10/20/art_14_23170.html"
+    }
+  ],
+  "indices": [
+    {
+      "name": "上证医药主题指数",
+      "date": "2026-10-23",
+      "close": 7213.6,
+      "change": 2.09,
+      "unit": "points",
+      "driver": "前日回调后反弹；不把单日涨幅等同于被投估值变动。",
+      "url": "https://cn.investing.com/indices/sse-health-care-theme-historical-data"
+    },
+    {
+      "name": "创新药ETF银华（159992）",
+      "date": "2026-10-23",
+      "close": 0.81,
+      "change": 2.4,
+      "unit": "CNY",
+      "url": "https://cn.investing.com/etfs/159992-historical-data"
+    },
+    {
+      "name": "医药ETF易方达（512010）",
+      "date": "2026-10-23",
+      "close": 0.376,
+      "change": 2.17,
+      "unit": "CNY",
+      "url": "https://cn.investing.com/etfs/e-fund-csi-300-health-care-historical-data"
+    },
+    {
+      "name": "恒生生物科技指数（HSBIO）",
+      "date": "2026-10-23",
+      "close": null,
+      "change": null,
+      "unit": "points",
+      "driver": "10月23日完整收盘值未找到足够可靠的核验来源，未使用盘中数据或ETF替代。",
+      "url": "https://www.hsi.com.hk/zh-cn/indexes/all-indexes/index-details/?seriesCode=hsbio"
+    },
+    {
+      "name": "华泰柏瑞恒生生物科技ETF（513930）",
+      "date": "2026-10-23",
+      "close": 0.966,
+      "change": 2.22,
+      "unit": "CNY",
+      "url": "https://cn.investing.com/etfs/513930-historical-data"
+    },
+    {
+      "name": "NASDAQ Biotechnology Index（NBI）",
+      "date": "2026-10-23",
+      "close": 6992.35,
+      "change": -1.13,
+      "unit": "points",
+      "url": "https://fred.stlouisfed.org/series/NASDAQNBI"
+    },
+    {
+      "name": "SPDR S&P Biotech ETF（XBI）",
+      "date": "2026-10-23",
+      "close": 149.54,
+      "change": -1.38,
+      "unit": "USD",
+      "url": "https://seekingalpha.com/symbol/XBI/historical-price-quotes"
+    }
+  ]
+}

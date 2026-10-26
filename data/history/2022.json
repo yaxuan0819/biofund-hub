@@ -1,0 +1,44 @@
+{
+  "year": 2022,
+  "coverage": "精选公开事件，非全年完整采集",
+  "records": [
+    {
+      "id": "H0001",
+      "year": 2022,
+      "date": "2022-08-11",
+      "category": "并购",
+      "title": "阿斯利康完成收购TeneoTwo",
+      "company": "AstraZeneca / TeneoTwo",
+      "asset": "TNB-486",
+      "technology": "CD19/CD3 T-cell engager",
+      "stage": "I期",
+      "upfront": "$100m",
+      "milestones": "研发里程碑最高$805m；商业里程碑最高$360m",
+      "headline": "最高潜在$1.265bn",
+      "royalty": "不适用",
+      "territory": "收购股权",
+      "notes": "已交割；$100m为交割现金对价，其余取决于里程碑。",
+      "source": "https://www.astrazeneca.com/media-centre/press-releases/2022/acquisition-of-teneotwo-for-its-clinical-stage-t-cell-engager-completed.html",
+      "status": "原始公告已核对"
+    },
+    {
+      "id": "H0002",
+      "year": 2022,
+      "date": "2022-10-12",
+      "category": "BD / Option",
+      "title": "默沙东行使Moderna个性化癌症疫苗合作选择权",
+      "company": "Merck / Moderna",
+      "asset": "mRNA-4157 / V940",
+      "technology": "个性化mRNA肿瘤疫苗",
+      "stage": "临床研发",
+      "upfront": "$250m option payment",
+      "milestones": "未在本条公告中逐项披露",
+      "headline": "非单一headline总价",
+      "royalty": "合作利润及成本分享",
+      "territory": "全球",
+      "notes": "2022年付款由默沙东后续年报确认；这笔是option exercise，不应等同license upfront。",
+      "source": "https://www.merck.com/news/merck-and-moderna-announce-exercise-of-option-by-merck-for-joint-development-and-commercialization-of-investigational-personalized-cancer-vaccine/",
+      "status": "原始公告已核对"
+    }
+  ]
+}

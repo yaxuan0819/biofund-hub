@@ -1,0 +1,44 @@
+{
+  "year": 2023,
+  "coverage": "精选公开事件，非全年完整采集",
+  "records": [
+    {
+      "id": "H0003",
+      "year": 2023,
+      "date": "2023-12-14",
+      "category": "并购",
+      "title": "辉瑞完成Seagen收购",
+      "company": "Pfizer / Seagen",
+      "asset": "肿瘤ADC产品组合",
+      "technology": "ADC",
+      "stage": "商业化及研发管线",
+      "upfront": "约$43bn整体企业价值",
+      "milestones": "不适用",
+      "headline": "约$43bn企业价值",
+      "royalty": "不适用",
+      "territory": "公司整体收购",
+      "notes": "每股$229现金；企业价值不能直接作为license首付款。",
+      "source": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-completes-acquisition-seagen",
+      "status": "原始公告已核对"
+    },
+    {
+      "id": "H0004",
+      "year": 2023,
+      "date": "2023-12-31",
+      "category": "BD / License",
+      "title": "默沙东与科伦博泰ADC许可合作的2023年付款披露",
+      "company": "Merck / Kelun-Biotech",
+      "asset": "ADC合作项目",
+      "technology": "ADC",
+      "stage": "未在本条年报中逐资产拆分",
+      "upfront": "$175m（默沙东年报列示费用）",
+      "milestones": "未在本条年报中逐项披露",
+      "headline": "不宜据此推导总交易额",
+      "royalty": "未核实",
+      "territory": "合作",
+      "notes": "取自Merck 2024年10-K对2023年BD支出的回顾，以12月31日占位表示年度统计，并非交易发生日，具体签约日待核对。",
+      "source": "https://www.sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm",
+      "status": "年度确认；日期待核实"
+    }
+  ]
+}
