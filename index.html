@@ -339,7 +339,7 @@ function renderResearchDashboard(){const di=document.getElementById('dashboardIn
 
 function latestBrief(){return [...dailyBriefs].sort((a,b)=>String(b.date).localeCompare(String(a.date)))[0]||null}
 function displayMoney(value){if(value===null||value===undefined||value==='')return '未披露';if(typeof value==='number'){return 'USD '+(value>=1e8?(value/1e8).toFixed(2)+'亿美元':value>=1e4?(value/1e4).toLocaleString('zh-CN')+'万美元':value.toLocaleString('zh-CN'))}return String(value)}
-function dealParties(v){return v.parties||[v.seller||v.licensor,v.buyer||v.licensee].filter(Boolean).join(' → ')||'交易方未披露'}
+function dealParties(v){const ps=v.parties;if(Array.isArray(ps))return ps.filter(Boolean).map(String).join(' / ')||'交易方未披露';if(typeof ps==='string'&&ps.trim())return ps;return [v.seller||v.licensor,v.buyer||v.licensee].filter(Boolean).join(' → ')||'交易方未披露'}
 function dealUpfront(v){return v.upfront??v.upfront_detail??v.upfront_usd??null}
 function dealTotal(v){return v.total??v.total_potential_usd??null}
 function safeLink(v){const url=v?.url||v?.source_url||'';return /^https?:\/\//i.test(url)?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">原始披露 ↗</a>`:''}
@@ -406,6 +406,7 @@ function mergedDeals(){
  // Older source first; newer re-disclosures replace earlier terms without duplicate rows.
  for(const b of [...dailyBriefs].sort((a,c)=>String(a.date).localeCompare(String(c.date)))){
   for(const x of (b.deals||[])){
+   if(!x||typeof x!=='object')continue;
    const d=recordFromBrief(x,b);records.set(dealFingerprint(d),d);
   }
  }
