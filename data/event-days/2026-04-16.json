@@ -1,0 +1,27 @@
+{
+  "date": "2026-04-16",
+  "record_type": "event_day_digest",
+  "coverage": "已核实公开公告的部分行业事件；未进行当日全维度新闻及收盘行情核验",
+  "summary": "2026-04-16 已归档 1 项BD/合作交易及 0 项其他事件；不是完整每日情报。",
+  "deals": [
+    {
+      "date": "2026-04-16",
+      "type": "BD / License / 战略合作",
+      "parties": "Aligos Therapeutics → 厦门特宝 Amoytop",
+      "asset": "pevifoscorvir sodium",
+      "technology": "乙肝抗病毒小分子",
+      "stage": "临床阶段（详见原公告）",
+      "territory": "大中华区（中国内地、香港、澳门、台湾）",
+      "upfront": "2500万美元（协议首付款，未核实到账）",
+      "milestones": "最高4.20亿美元里程碑",
+      "total": "最高4.45亿美元（不含销售提成）",
+      "royalty": "未披露/见原公告",
+      "paid_amount": "未核实到账",
+      "impact": "License-in；中国权益交易；原公告另披露高个位数阶梯销售提成。 已付款情况：没有原始付款凭证，尚未核实到账。",
+      "url": "https://www.globenewswire.com/news-release/2026/04/16/3275110/0/en/aligos-therapeutics-enters-into-exclusive-license-deal-with-xiamen-amoytop-biotech-co-ltd-to-develop-and-commercialize-pevifoscorvir-sodium-in-greater-china-for-chronic-hepatitis-b.html",
+      "status": "原始企业公告核实交易基本条款；实际到账未知"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

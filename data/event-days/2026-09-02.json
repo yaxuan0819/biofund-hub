@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-02",
+  "record_type": "event_day_digest",
+  "coverage": "已核实公开公告的部分行业事件；未进行当日全维度新闻及收盘行情核验",
+  "summary": "2026-09-02 已归档 1 项BD/合作交易及 0 项其他事件；不是完整每日情报。",
+  "deals": [
+    {
+      "date": "2026-09-02",
+      "type": "BD / License / 战略合作",
+      "parties": "百奥赛图 Biocytogen → 齐鲁制药",
+      "asset": "全人源VHH抗体分子",
+      "technology": "VHH / 纳米抗体平台",
+      "stage": "研发阶段",
+      "territory": "非独家许可；地域未披露",
+      "upfront": "未披露",
+      "milestones": "未披露",
+      "total": "未披露",
+      "royalty": "未披露/见原公告",
+      "paid_amount": "未核实到账",
+      "impact": "神经科学用途非独家技术许可；注意与独家License-out分开比较。 已付款情况：没有原始付款凭证，尚未核实到账。",
+      "url": "https://biocytogen.com/news/biocytogen-enters-into-non-exclusive-licensing-agreement-with-qilu-pharmaceutical-for-a-fully-human-vhh-antibody-to-support-innovative-drug-development-in-neuroscience-us",
+      "status": "原始企业公告核实交易基本条款；实际到账未知"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

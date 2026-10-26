@@ -1,0 +1,26 @@
+{
+  "date": "2026-09-22",
+  "record_type": "event_day_digest",
+  "coverage": "已核实公开公告的部分行业事件；未进行当日全维度新闻及收盘行情核验",
+  "summary": "2026-09-22 已归档 0 项BD/合作交易及 2 项其他事件；不是完整每日情报。",
+  "deals": [],
+  "news": [
+    {
+      "date": "2026-09-22",
+      "type": "clinical",
+      "title": "安进dazodalibep Ⅲ期OASIZ 301研究主要终点达成",
+      "summary": "Sjögren病活动度ESSDAI在48周达到统计学显著改善；后续须结合安全性与监管文件。",
+      "url": "https://www.amgen.com/newsroom/press-releases/2026/09/amgen-announces-positive-topline-phase-3-results-for-dazodalibep-in-moderatetosevere-systemic-sjgrens-disease",
+      "status": "官方公告核实"
+    },
+    {
+      "date": "2026-09-22",
+      "type": "clinical",
+      "title": "Celldex barzolvolimab Ⅲ期EMBARQ-CSU1/2取得积极顶线结果",
+      "summary": "两项慢性自发性荨麻疹Ⅲ期研究报告达成主要及关键次要终点；属公司公告，完整数据仍需核验。",
+      "url": "https://celldex.gcs-web.com/news-releases/news-release-details/celldex-announces-positive-results-phase-3-embarq-csu1-and",
+      "status": "官方公告核实"
+    }
+  ],
+  "indices": []
+}

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-14",
+  "record_type": "event_day_digest",
+  "coverage": "选定公告的历史事件（不含当日所有行业事件与交易日指数）",
+  "summary": "2026-10-14：BD/合作 1 条，其他事件 0 条；非完整日报。",
+  "deals": [
+    {
+      "date": "2026-10-14",
+      "type": "BD / License",
+      "parties": "Vir Biotechnology → Gilead Sciences",
+      "asset": "三个PRO-XTEN双重遮蔽TCE项目",
+      "technology": "双重遮蔽T-cell engager/AI蛋白工程",
+      "stage": "发现/临床前",
+      "territory": "Gilead独家开发和商业化，地域详见原公告",
+      "upfront": "9000万美元协议初始对价：6500万美元现金+2500万美元股权投资（非全现金）",
+      "milestones": "近期临床前里程碑最高4500万美元；其余研发/注册/商业里程碑最高17.4亿美元",
+      "total": "潜在合计18.75亿美元（9000万+4500万+17.4亿），含股权出资；非现金收入合计",
+      "royalty": "高个位数至低双位数分级销售提成",
+      "paid_amount": "未核实到账",
+      "impact": "把2500万美元股权投资与6500万美元现金首付款分开；签约金额不代表到账。",
+      "url": "https://investors.vir.bio/news/news-details/2026/Vir-Biotechnology-Enters-Multi-Program-Collaboration-and-License-Agreement-with-Gilead-Sciences-to-Discover-and-Develop-Novel-PRO-XTEN-Dual-masked-T-cell-Engagers-for-Solid-Tumors/default.aspx",
+      "status": "原始公告/SEC备案核实公开合同条款；实际收款未确认"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

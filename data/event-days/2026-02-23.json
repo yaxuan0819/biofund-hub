@@ -1,0 +1,18 @@
+{
+  "date": "2026-02-23",
+  "record_type": "event_day_digest",
+  "coverage": "已核实公开公告的部分行业事件；未进行当日全维度新闻及收盘行情核验",
+  "summary": "2026-02-23 已归档 0 项BD/合作交易及 1 项其他事件；不是完整每日情报。",
+  "deals": [],
+  "news": [
+    {
+      "date": "2026-02-23",
+      "type": "regulation",
+      "title": "FDA发布超罕见病个体化治疗开发框架",
+      "summary": "政策可能影响超罕见病临床证据及监管路径，但需以最终指南和适应症细则分析。",
+      "url": "https://www.fda.gov/news-events/fda-newsroom/press-announcements?page=3&randparam=303976",
+      "status": "官方公告核实"
+    }
+  ],
+  "indices": []
+}

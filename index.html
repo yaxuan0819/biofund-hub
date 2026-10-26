@@ -18,7 +18,7 @@ a{color:inherit}.app{display:grid;grid-template-columns:250px 1fr;min-height:100
 <div class="app">
 <aside class="side">
   <div class="logo">BioFund Research Hub</div>
-  <div class="sub">个人生物医药投研数据库 · v8.0</div>
+  <div class="sub">个人生物医药投研数据库 · v9.1</div>
   <div class="nav" id="nav">
     <button class="active" data-page="dashboard">研究总览</button>
     <div class="nav-label">投研工作台</div>
@@ -85,7 +85,7 @@ a{color:inherit}.app{display:grid;grid-template-columns:250px 1fr;min-height:100
 </div></section>
 
 <section class="section" id="bd"><div class="grid">
-<div class="card span12"><div class="note-head"><div><h2>BD / License 交易数据库</h2><p class="muted">把授权交易拆成可比较字段：产品、靶点、阶段、地域权益、首付款、里程碑、总对价和 royalty。</p></div><button class="btn" onclick="openModal('dealModal')">新增交易</button></div><div class="toolbar" style="margin-top:14px"><input class="input grow" id="dealSearch" placeholder="搜索公司、产品、靶点、适应症"><select class="input" id="dealTypeFilter"><option value="">全部交易</option><option>License-out</option><option>License-in</option><option>共同开发</option><option>M&A</option><option>NewCo</option><option>其他</option></select><select class="input" id="dealStageFilter"><option value="">全部阶段</option></select><button class="btn secondary" onclick="exportDeals()">导出交易库</button></div></div>
+<div class="card span12"><div class="note-head"><div><h2>BD / License 交易数据库</h2><p class="muted">同步读取2026历史文件；按日期查看今年重大交易。覆盖尚不完整，部分二级来源待核验原始公告。首付款、最高潜在总对价不等于实际到账。</p></div><button class="btn" onclick="openModal('dealModal')">新增交易</button></div><div class="toolbar" style="margin-top:14px"><input class="input grow" id="dealSearch" placeholder="搜索公司、产品、靶点、适应症"><select class="input" id="dealTypeFilter"><option value="">全部交易</option><option>License-out</option><option>License-in</option><option>共同开发</option><option>M&A</option><option>NewCo</option><option>其他</option></select><select class="input" id="dealStageFilter"><option value="">全部阶段</option></select><select class="input" id="dealYearFilter"><option value="2026">2026年</option><option value="">所有年份</option><option value="2025">2025</option><option value="2024">2024</option><option value="2023">2023</option><option value="2022">2022</option></select><span id="dealCoverage" class="muted" style="font-size:12px">正在同步历史库…</span><button class="btn secondary" onclick="exportDeals()">导出交易库</button></div></div>
 <div class="card span12 deal-table"><table><thead><tr><th>日期</th><th>交易</th><th>资产 / 靶点</th><th>阶段</th><th>地域</th><th>首付款</th><th>里程碑</th><th>总对价</th><th>Royalty</th><th>原文</th><th></th></tr></thead><tbody id="dealBody"></tbody></table></div>
 </div></section>
 
@@ -109,7 +109,9 @@ a{color:inherit}.app{display:grid;grid-template-columns:250px 1fr;min-height:100
 <div class="card span7"><h2>最新临床、融资与监管动态</h2><div id="dailyNews"></div></div>
 <div class="card span5"><h2>日报应该回答什么</h2><ol><li>今天新增了哪些License-out、NewCo或并购？</li><li>首付款和总对价分别是多少，不能只看headline value。</li><li>哪些临床数据、获批、终止或安全性事件可能影响估值？</li><li>A股、港股和美股生物医药指数如何变化，主要由谁驱动？</li><li>对基金现有项目、估值及现金跑道有什么映射？</li></ol></div>
 <div class="card span12"><div class="note-head"><div><h2>在线日报数据源</h2><p class="muted">页面打开时自动读取本站 data/latest.json；离线或读取失败时显示上次已保存的日报。数据源需要人工更新，不会自动采集新闻。</p></div><button class="btn secondary" onclick="refreshOnlineDaily(true)">立即检查更新</button></div><div id="onlineDailyStatus" class="note-meta" style="margin-top:10px" role="status">正在准备连接...</div></div>
-<div class="card span12"><h2>更新日报 / 历史归档</h2><p class="muted">导入新日报后，上方新闻、交易、指数及首页摘要会立即显示最新一期。数据保存在当前浏览器；静态网页不会联网自动抓取新闻。</p><textarea class="input jsonbox" id="dailyJson" placeholder='{"date":"2026-07-27","summary":"...","deals":[],"news":[],"indices":[]}'></textarea><div class="toolbar" style="margin-top:10px"><button class="btn" onclick="importDailyBrief()">导入日报</button><button class="btn secondary" onclick="loadSampleDaily()">载入格式示例</button><button class="btn secondary" onclick="exportDailyBriefs()">导出历史日报</button><label class="btn secondary" style="display:inline-block">导入日报文件<input type="file" id="dailyFile" accept="application/json" class="hidden"></label></div><h3 style="margin-top:22px">历史日报（点击展开）</h3><div id="dailyHistory"></div></div>
+<div class="card span12"><h2>更新日报 / 历史归档</h2><p class="muted">导入新日报后，上方新闻、交易、指数及首页摘要会立即显示最新一期。数据保存在当前浏览器；静态网页不会联网自动抓取新闻。</p><textarea class="input jsonbox" id="dailyJson" placeholder='{"date":"2026-07-27","summary":"...","deals":[],"news":[],"indices":[]}'></textarea><div class="toolbar" style="margin-top:10px"><button class="btn" onclick="importDailyBrief()">导入日报</button><button class="btn secondary" onclick="loadSampleDaily()">载入格式示例</button><button class="btn secondary" onclick="exportDailyBriefs()">导出历史日报</button><label class="btn secondary" style="display:inline-block">导入日报文件<input type="file" id="dailyFile" accept="application/json" class="hidden"></label></div><h3 style="margin-top:22px">历史日报（点击展开）</h3><div id="bfEventArchive" style="padding:12px 15px;margin:10px 0 16px;background:#eef7ff;border:1px solid #cfe1f4;border-radius:10px;color:#174b72;font-size:13px;line-height:1.65">正在读取2026年BD事件日归档…</div>
+<div id="bfDailyCoverageNotice" style="padding:12px 15px;margin:10px 0 16px;background:#fff8e8;border:1px solid #ebd4aa;border-radius:10px;color:#79550c;font-size:13px;line-height:1.65">提示：正在核对日报归档覆盖情况…</div>
+<div id="dailyHistory"></div></div>
 </div></section>
 <section class="section" id="updates"><div class="grid"><div class="card span8"><h2>权威更新入口</h2><div id="sources"></div></div><div class="card span4"><h2>更新方法</h2><p>建议每周固定一次：</p><ol><li>检查基金重点项目的临床登记状态；</li><li>查看CDE/NMPA新增指导原则和审批动态；</li><li>查看FDA相关产品审评和安全信息；</li><li>把重要变化更新进“项目跟踪”。</li></ol><div class="callout">本页不自动抓取第三方正文，避免跨域、反爬和信息源失效。链接直接进入权威网站，数据由你在项目卡片中沉淀。</div></div><div class="card span12"><h2>手工更新日志</h2><div class="toolbar"><input class="input grow" id="logText" placeholder="例如：某项目II期达到主要终点，待评估估值影响"><button class="btn" onclick="addLog()">记录</button></div><div id="logs"></div></div></div></section>
 
@@ -248,29 +250,63 @@ function renderDrugStages(){
 let currentStage=0;
 function openStage(i){currentStage=(i+drugStages.length)%drugStages.length;const x=drugStages[currentStage];stageModalIndex.textContent=`研发价值链第 ${currentStage+1} / ${drugStages.length} 阶段 · ${x.en}`;stageModalTitle.textContent=x.name;stageModalSubtitle.textContent=x.definition;stageModalBody.innerHTML=`<div><h3>企业在做什么</h3><ul>${x.tasks.map(v=>`<li>${v}</li>`).join('')}</ul></div><div><h3>关键里程碑</h3><ul>${x.milestones.map(v=>`<li>${v}</li>`).join('')}</ul></div><div><h3>主要失败风险</h3><ul>${x.risks.map(v=>`<li>${v}</li>`).join('')}</ul></div><div><h3>对估值的含义</h3><p style="line-height:1.7;font-size:13px">${x.valuation}</p></div><div style="grid-column:1/-1"><h3>基金会计关注点</h3><div class="callout">${x.accounting}</div></div>`;prevStageBtn.onclick=()=>openStage(currentStage-1);nextStageBtn.onclick=()=>openStage(currentStage+1);openModal('stageModal');}
 
+
+let eventDayArchive=[];
+async function refreshEventDayArchive(manifest){
+ const dates=Array.isArray(manifest.event_days)?manifest.event_days:[];
+ const result=await Promise.allSettled(dates.map(async date=>{
+  const r=await fetch('./data/event-days/'+date+'.json?nocache='+Date.now(),{cache:'no-store'});
+  if(!r.ok)throw Error('HTTP '+r.status+' : '+date);
+  return await r.json();
+ }));
+ eventDayArchive=result.filter(x=>x.status==='fulfilled').map(x=>x.value).sort((a,b)=>String(b.date).localeCompare(String(a.date)));
+ const failed=result.filter(x=>x.status==='rejected').length;
+ const holder=document.getElementById('bfEventArchive');
+ if(holder)holder.innerHTML='<strong>2026年BD事件日期归档：'+eventDayArchive.length+'个日期</strong> · 覆盖'+(manifest.historical_2026_deal_records||0)+'条精选历史交易（含可能待核验项）。<br>此处并非完整日报：未补齐每日临床、监管、行情。'+(failed?' '+failed+'份事件日文件读取失败。':'')+ '<details style="margin-top:7px"><summary style="cursor:pointer">查看历史事件日期</summary><div style="margin-top:9px">'+eventDayArchive.map(x=>'<span class="mini-stat" title="'+(x.deals||[]).length+'项事件">'+esc(x.date)+' · '+(x.deals||[]).length+'条</span>').join(' ')+'</div></details>';
+}
+
 async function refreshOnlineDaily(manual=false){
  const status=document.getElementById('onlineDailyStatus');
- const setStatus=(message)=>{if(status)status.textContent=message};
- setStatus('正在检查本站 data/latest.json ...');
+ const setStatus=message=>{if(status)status.textContent=message};
+ setStatus('正在读取云端日报归档…');
+ let fetched=0,failed=[];
  try{
-  // Relative path works on GitHub Pages project sites and custom domains.
-  const response=await fetch('./data/latest.json?nocache='+Date.now(),{cache:'no-store'});
-  if(!response.ok)throw new Error('HTTP '+response.status);
-  const data=await response.json();
-  if(!data||typeof data!=='object'||Array.isArray(data)||!/^\d{4}-\d{2}-\d{2}$/.test(data.date)||!Array.isArray(data.deals)||!Array.isArray(data.news)||!Array.isArray(data.indices))throw new Error('JSON缺少date、deals、news或indices字段');
-  const old=dailyBriefs.find(x=>x.date===data.date);
-  dailyBriefs=dailyBriefs.filter(x=>x.date!==data.date);
-  dailyBriefs.push(data);
+  const manifestResponse=await fetch('./data/manifest.json?nocache='+Date.now(),{cache:'no-store'});
+  if(!manifestResponse.ok)throw Error('日报索引 HTTP '+manifestResponse.status);
+  const manifest=await manifestResponse.json();
+  const dates=Array.isArray(manifest.daily)?[...new Set(manifest.daily)].filter(d=>/^\d{4}-\d{2}-\d{2}$/.test(d)):[];
+  const requests=await Promise.allSettled(dates.map(async date=>{
+    const r=await fetch('./data/daily/'+date+'.json?nocache='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw Error(date+' HTTP '+r.status);
+    const x=await r.json();
+    if(x.date!==date||!Array.isArray(x.deals)||!Array.isArray(x.news)||!Array.isArray(x.indices))throw Error(date+' 字段不完整');
+    return x;
+  }));
+  for(let i=0;i<requests.length;i++){
+    const x=requests[i];
+    if(x.status==='fulfilled'){
+      dailyBriefs=dailyBriefs.filter(v=>v.date!==x.value.date);dailyBriefs.push(x.value);fetched++;
+    }else failed.push(dates[i]);
+  }
+  // The latest news is independently fetched; it may be newer than the archived daily index.
+  try{
+    const r=await fetch('./data/latest.json?nocache='+Date.now(),{cache:'no-store'});
+    if(!r.ok)throw Error('最新日报 HTTP '+r.status);
+    const x=await r.json();
+    if(!x.date||!Array.isArray(x.deals)||!Array.isArray(x.news)||!Array.isArray(x.indices))throw Error('最新日报字段不完整');
+    dailyBriefs=dailyBriefs.filter(v=>v.date!==x.date);dailyBriefs.push(x);
+  }catch(e){failed.push('latest.json');}
   dailyBriefs.sort((a,b)=>String(b.date).localeCompare(String(a.date)));
   localStorage.setItem('bf_daily_briefs',JSON.stringify(dailyBriefs));
+  await refreshEventDayArchive(manifest);
   renderDailyHistory();renderMarket();refreshDealDatabase();
-  const newer=latestBrief();
-  setStatus('已连接 GitHub 日报数据 · 在线文件：'+data.date+' · 当前展示：'+(newer?.date||data.date)+' · 检查时间：'+new Date().toLocaleString('zh-CN'));
-  if(manual)alert('更新检查成功，已读取 '+data.date+' 的在线日报。');
- }catch(e){
-  setStatus('未能读取在线日报（'+e.message+'）。当前仍可使用已保存的数据。请检查仓库中是否有 data/latest.json。');
-  if(manual)alert('在线更新失败：'+e.message);
- }
+  const archiveDates=dates.filter(d=>!failed.includes(d));
+  const countMessage='云端已归档 '+archiveDates.length+' 天（'+(archiveDates.length?archiveDates[archiveDates.length-1]+' 至 '+archiveDates[0]:'暂无')+'）；2026年全年日报尚未补齐';
+  setStatus(countMessage+(failed.length?'；读取失败：'+failed.join(', '):''));
+  const notice=document.getElementById('bfDailyCoverageNotice');
+  if(notice)notice.textContent='数据覆盖提醒：目前云端只有 '+archiveDates.length+' 份有文件的历史日报。未存档的日期不代表没有新闻，亦不代表已经检索完毕。最近入库日：'+(latestBrief()?.date||'无')+'。';
+  if(manual)alert(countMessage+(failed.length?'\n读取失败：'+failed.join(', '):''));
+ }catch(e){setStatus('云端日报索引读取失败：'+e.message+'。页面仅显示已保存在本机的记录。');if(manual)alert('日报归档读取失败：'+e.message)}
 }
 function init(){renderDrugStages();document.getElementById('today').textContent=new Date().toLocaleDateString('zh-CN',{year:'numeric',month:'long',day:'numeric'});renderTerms();renderRoadmap();renderProjects();renderCategories();renderNotes();renderInbox();renderDeals();renderCompanies();renderResearchDashboard();renderMarket();renderDailyHistory();renderSources();renderLogs();restoreChecks();updateMetrics();newQuiz();document.getElementById('dailyTip').innerHTML='<h3>'+['清空1条待整理素材，并写出一句话判断','检查一个被投项目下一临床里程碑','找一笔同靶点License交易做估值映射','看一条临床数据并记录样本量、终点和安全性'][new Date().getDate()%4]+'</h3><p class="muted">每天完成一个小闭环，比泛读行业新闻更有效。</p>'; if(nAccessed&&!nAccessed.value)nAccessed.value=new Date().toISOString().slice(0,10); if(dDate&&!dDate.value)dDate.value=new Date().toISOString().slice(0,10)}
 function goPage(p){const btn=document.querySelector(`.nav button[data-page="${p}"]`);if(!btn||!document.getElementById(p))return;document.querySelectorAll('.nav button').forEach(x=>x.classList.remove('active'));btn.classList.add('active');document.querySelectorAll('.section').forEach(x=>x.classList.remove('active'));document.getElementById(p).classList.add('active');document.getElementById('pageTitle').textContent=titles[p][0];document.getElementById('pageDesc').textContent=titles[p][1];window.scrollTo({top:0,behavior:'smooth'})}
@@ -345,7 +381,7 @@ function dealTotal(v){return v.total??v.total_potential_usd??null}
 function safeLink(v){const url=v?.url||v?.source_url||'';return /^https?:\/\//i.test(url)?`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">原始披露 ↗</a>`:''}
 function renderMarket(){
  const brief=latestBrief();const deals=brief?.deals||[],news=brief?.news||[],indices=brief?.indices||[];
- const metrics=[['最新日报',brief?.date||'尚未导入','最新已收录日期'],['BD / 并购',deals.length+' 笔','本期交易事件'],['临床 / 监管 / 融资',news.length+' 条','本期行业动态'],['历史日报',dailyBriefs.length+' 期','浏览器本地保存']];
+ const metrics=[['最新日报',brief?.date||'尚未导入','最新已收录日期'],['BD / 并购',deals.length+' 笔','本期交易事件'],['临床 / 监管 / 融资',news.length+' 条','本期行业动态'],['历史日报',dailyBriefs.length+' 期','完整日报与浏览器本地记录，不含事件日档案']];
  const cards=metrics.map(x=>`<div class="market-card"><small class="muted">${esc(x[0])}</small><b style="font-size:21px;margin-top:6px">${esc(x[1])}</b><span class="muted">${esc(x[2])}</span></div>`).join('');
  for(const id of ['marketMetrics','dashboardMarketMetrics']){const el=document.getElementById(id);if(el)el.innerHTML=cards}
  const badge=document.getElementById('marketLatestBadge');if(badge)badge.textContent=brief?'最新已收录：'+brief.date:'尚未导入日报';
@@ -401,6 +437,25 @@ function recordFromBrief(x,b){
   sourceBrief:b.date,isDaily:true,favorite:false,
   paid:x.paid_amount||x.paid_usd||''};
 }
+let historicalDealRecords=[];
+function historyRecordToDeal(r){
+ const p=String(r.company||'').split(/\s*(?:→|←)\s*/);
+ return {id:r.id,date:r.date,type:(r.category||'').includes('NewCo')?'NewCo':(r.category||'').includes('并购')?'M&A':'License-out',
+   parties:r.company||'',licensor:p[0]||'',licensee:p[1]||'',asset:r.asset||'',target:r.technology||'',stage:r.stage||'',territory:r.territory||'',
+   upfront:r.upfront||'',milestone:r.milestones||'',total:r.headline||'',royalty:r.royalty||'',url:r.source||'',
+   finance:r.notes||'',paid:'未核实到账',isHistorical:true,sourceStatus:r.status||'待核实'};
+}
+async function loadHistoricalDeals(){
+ const status=document.getElementById('dealCoverage');
+ try{
+  const mf=await fetch('./data/manifest.json?nocache='+Date.now(),{cache:'no-store'});if(!mf.ok)throw Error('目录 HTTP '+mf.status);
+  const manifest=await mf.json();
+  const files=await Promise.all((manifest.years||[]).map(async y=>{const res=await fetch('./data/history/'+y+'.json?nocache='+Date.now(),{cache:'no-store'});if(!res.ok)throw Error(y+'文件 HTTP '+res.status);return res.json()}));
+  historicalDealRecords=files.flatMap(f=>f.records||[]).filter(r=>(r.category||'').includes('BD')||(r.category||'').includes('并购')).map(historyRecordToDeal);
+  if(status)status.textContent='历史库已加载 '+historicalDealRecords.filter(r=>r.date.startsWith('2026')).length+' 条2026年记录（非全量）';
+  refreshDealDatabase();
+ }catch(e){if(status)status.textContent='历史数据加载失败：'+e.message;console.error('BioFund历史交易',e)}
+}
 function mergedDeals(){
  const records=new Map();
  // Older source first; newer re-disclosures replace earlier terms without duplicate rows.
@@ -409,6 +464,11 @@ function mergedDeals(){
    if(!x||typeof x!=='object')continue;
    const d=recordFromBrief(x,b);records.set(dealFingerprint(d),d);
   }
+ }
+ // Historical 2022-2026 source records, now visible on the HOME BD tab.
+ for(const d of historicalDealRecords){
+  const k=dealFingerprint(d);
+  if(!records.has(k))records.set(k,d);
  }
  // User's own entries are retained and take precedence for the same asset.
  for(const d of bdDeals){
@@ -422,14 +482,16 @@ function mergedDeals(){
 function refreshDealDatabase(){renderDeals();renderResearchDashboard();updateMetrics();}
 function renderDeals(){
  const body=document.getElementById('dealBody');if(!body)return;
- const q=(dealSearch?.value||'').toLowerCase(),ty=dealTypeFilter?.value||'',st=dealStageFilter?.value||'';
- const list=mergedDeals().filter(x=>(!ty||x.type===ty||x.type.includes(ty))&&(!st||x.stage===st||x.stage.includes(st))&&JSON.stringify(x).toLowerCase().includes(q));
- body.innerHTML=list.length?list.map(x=>`<tr><td>${esc(x.date||'-')}<div class="note-meta">${x.isDaily?'日报同步':'手工/示例'}</div></td><td><b>${esc(x.parties||[x.licensor,x.licensee].filter(Boolean).join(' → '))}</b><div><span class="pill">${esc(x.type||'')}</span></div></td><td>${esc(x.asset||'-')}<div class="muted">${esc(x.target||'')}${x.indication?' · '+esc(x.indication):''}</div></td><td>${esc(x.stage||'-')}</td><td>${esc(x.territory||'-')}</td><td><b>${esc(x.upfront||'-')}</b>${x.paid?'<div class="note-meta">实际到账：'+esc(displayMoney(x.paid))+'</div>':''}</td><td>${esc(x.milestone||'-')}</td><td>${esc(x.total||'-')}</td><td>${esc(x.royalty||'-')}</td><td>${x.url?`<a class="linkish" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">原文 ↗</a>`:'-'}</td><td>${x.isDaily?'<span class="note-meta">自动同步</span>':`<button class="fav ${x.favorite?'on':''}" onclick="toggleDealFav(${x.id})">★</button><button class="btn danger" style="padding:5px 7px" onclick="delDeal(${x.id})">删</button>`}</td></tr>`).join(''):'<tr><td colspan="11" class="muted">暂无匹配交易。</td></tr>';
+ const q=(dealSearch?.value||'').toLowerCase(),ty=dealTypeFilter?.value||'',st=dealStageFilter?.value||'',yr=document.getElementById('dealYearFilter')?.value||'';
+ const list=mergedDeals().filter(x=>(!yr||String(x.date||'').startsWith(yr))&&(!ty||x.type===ty||x.type.includes(ty))&&(!st||x.stage===st||x.stage.includes(st))&&JSON.stringify(x).toLowerCase().includes(q));
+ body.innerHTML=list.length?list.map(x=>`<tr><td>${esc(x.date||'-')}<div class="note-meta">${x.isHistorical?'历史库 · '+esc(x.sourceStatus):x.isDaily?'日报同步':'手工/示例'}</div></td><td><b>${esc(x.parties||[x.licensor,x.licensee].filter(Boolean).join(' → '))}</b><div><span class="pill">${esc(x.type||'')}</span></div></td><td>${esc(x.asset||'-')}<div class="muted">${esc(x.target||'')}${x.indication?' · '+esc(x.indication):''}</div></td><td>${esc(x.stage||'-')}</td><td>${esc(x.territory||'-')}</td><td><b>${esc(x.upfront||'-')}</b>${x.paid?'<div class="note-meta">实际到账：'+esc(displayMoney(x.paid))+'</div>':''}</td><td>${esc(x.milestone||'-')}</td><td>${esc(x.total||'-')}</td><td>${esc(x.royalty||'-')}</td><td>${x.url?`<a class="linkish" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">原文 ↗</a>`:'-'}</td><td>${x.isDaily||x.isHistorical?'<span class="note-meta">云端数据</span>':`<button class="fav ${x.favorite?'on':''}" onclick="toggleDealFav(${x.id})">★</button><button class="btn danger" style="padding:5px 7px" onclick="delDeal(${x.id})">删</button>`}</td></tr>`).join(''):'<tr><td colspan="11" class="muted">暂无匹配交易。</td></tr>';
 }
 function exportDeals(){download('biopharma_bd_deals_combined.json',mergedDeals())}
 
 init();
 refreshOnlineDaily();
+loadHistoricalDeals();
+document.getElementById('dealYearFilter')?.addEventListener('change',renderDeals);
 </script>
 <a href="history.html" title="2022—2026历史库" style="position:fixed;right:18px;bottom:18px;z-index:99999;background:#244ce8;color:#fff;padding:13px 18px;border-radius:999px;font:600 14px Microsoft YaHei,Arial,sans-serif;box-shadow:0 5px 20px #182b6a55;text-decoration:none">📚 五年历史库 · v9</a>
 </body></html>

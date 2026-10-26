@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-22",
+  "record_type": "event_day_digest",
+  "coverage": "BD/M&A only; not a complete daily news bulletin",
+  "summary": "2026-10-22 已收录 1 项历史BD/并购事件。本页面是事件日期归档，不是完整的每日行业情报；临床、监管、指数未进行该日全面核查。",
+  "deals": [
+    {
+      "date": "2026-10-22",
+      "type": "BD / 近期日报",
+      "parties": "PepStar Therapeutics（瀚辰星泰） → Gilead Sciences",
+      "asset": "HCXT-2001及口服IL-23R抑制剂项目",
+      "technology": "口服大环肽IL-23R抑制剂",
+      "stage": "临床阶段",
+      "territory": "全球权益",
+      "upfront": "12.75亿美元现金对价，预计交割时支付（尚未确认到账）",
+      "milestones": "未披露",
+      "total": "公告披露现金收购价12.75亿美元；并非已支付金额",
+      "royalty": "未披露",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "须按交易资产或股权法律主体核对实际出售方、交割条件和基金持有路径；预计现金收益不能在交割前按已实现退出入账。 已付款情况：尚未确认到账",
+      "url": "https://investors.gilead.com/news/news-details/2026/Gilead-to-Acquire-Investigational-Oral-IL-23R-Inhibitor-HCXT-2001-Strengthening-Its-Inflammation-Pipeline-in-IBD/default.aspx",
+      "status": "沿用v8日报，待逐项复核"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

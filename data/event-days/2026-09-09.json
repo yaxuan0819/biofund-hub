@@ -1,0 +1,44 @@
+{
+  "date": "2026-09-09",
+  "record_type": "event_day_digest",
+  "coverage": "已核实公开公告的部分行业事件；未进行当日全维度新闻及收盘行情核验",
+  "summary": "2026-09-09 已归档 2 项BD/合作交易及 0 项其他事件；不是完整每日情报。",
+  "deals": [
+    {
+      "date": "2026-09-09",
+      "type": "BD / License / 战略合作",
+      "parties": "创胜集团 Transcenta → 药明生物 WuXi Biologics",
+      "asset": "HiCB持续生物工艺及ExcelPro培养基",
+      "technology": "生产工艺/CMC技术许可",
+      "stage": "技术平台（非药品临床阶段）",
+      "territory": "非独家技术许可",
+      "upfront": "人民币1000万元（协议首付款，未核实到账）",
+      "milestones": "附条件里程碑，金额未披露",
+      "total": "未披露可比总对价",
+      "royalty": "未披露/见原公告",
+      "paid_amount": "未核实到账",
+      "impact": "平台技术授权不是临床资产授权，应单独分组分析。 已付款情况：没有原始付款凭证，尚未核实到账。",
+      "url": "https://www.transcentabio.com/newsDet/id-166.html",
+      "status": "原始企业公告核实交易基本条款；实际到账未知"
+    },
+    {
+      "date": "2026-09-09",
+      "type": "BD / License / 战略合作",
+      "parties": "1cBio → 李氏大药厂 Lee’s Pharmaceutical",
+      "asset": "OC-3",
+      "technology": "PARP1抑制剂",
+      "stage": "临床阶段待核实",
+      "territory": "大中华区及部分东南亚",
+      "upfront": "单独首付款未披露",
+      "milestones": "包含首付款、研发及销售里程碑的合计最高2700万美元",
+      "total": "最高2700万美元（含首付款和里程碑，不可再叠加）",
+      "royalty": "未披露/见原公告",
+      "paid_amount": "未核实到账",
+      "impact": "最高金额包含不同类别付款，不能误记为已到账。 已付款情况：没有原始付款凭证，尚未核实到账。",
+      "url": "https://1cbio.com/1cbio-and-lees-pharmaceutical-holdings-limited-enter-into-exclusive-licensing-agreement-to-develop-and-commercialize-1cbios-parp1-inhibitor-oc-3-for-oncology-in-greater-china-and-sou/",
+      "status": "原始企业公告核实交易基本条款；实际到账未知"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

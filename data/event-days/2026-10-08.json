@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-08",
+  "record_type": "event_day_digest",
+  "coverage": "选定公告的历史事件（不含当日所有行业事件与交易日指数）",
+  "summary": "2026-10-08：BD/合作 1 条，其他事件 0 条；非完整日报。",
+  "deals": [
+    {
+      "date": "2026-10-08",
+      "type": "BD / License",
+      "parties": "Biohaven → Ono Pharmaceutical",
+      "asset": "MoDE pan-IgG degrader (BHV-1300/1310/1320)",
+      "technology": "IgG降解剂",
+      "stage": "临床开发及后续管线",
+      "territory": "日本、韩国、台湾及东盟国家独家",
+      "upfront": "8000万美元首付款，交割时应付（未证实到账）",
+      "milestones": "达到稳定性数据等条件且Ono选择推进后额外2000万美元；其余里程碑依协议",
+      "total": "不完整披露；不得将1亿美元视为已支付",
+      "royalty": "协议含销售提成，具体以SEC文件为准",
+      "paid_amount": "未核实到账",
+      "impact": "SEC 8-K转载记录，条件性2000万美元不可视为首付款到账。",
+      "url": "https://www.streetinsider.com/SEC%2BFilings/Form%2B8-K%2BBiohaven%2BLtd.%2BFor%3A%2BOct%2B08/27194190.html",
+      "status": "原始公告/SEC备案核实公开合同条款；实际收款未确认"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

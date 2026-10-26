@@ -1,0 +1,61 @@
+{
+  "date": "2026-01-12",
+  "record_type": "event_day_digest",
+  "coverage": "BD/M&A only; not a complete daily news bulletin",
+  "summary": "2026-01-12 已收录 3 项历史BD/并购事件。本页面是事件日期归档，不是完整的每日行业情报；临床、监管、指数未进行该日全面核查。",
+  "deals": [
+    {
+      "date": "2026-01-12",
+      "type": "BD / License",
+      "parties": "RemeGen → AbbVie",
+      "asset": "RC148 / PD-1×VEGF",
+      "technology": "",
+      "stage": "中国Ib期",
+      "territory": "待原始公告核对",
+      "upfront": "$650M",
+      "milestones": "请参照原始公告，待核对",
+      "total": "最高约$5.6B",
+      "royalty": "未披露/待核对",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "金额为公告约定条款或最高潜在对价，非实际到账金额。该条目前来自2026年度二级交易追踪，尚未逐项核对原始公告。",
+      "url": "https://visionlifesciences.com/insights/china-biotech-outbound-licensing-tracker",
+      "status": "二级来源；待逐条核对原始公告"
+    },
+    {
+      "date": "2026-01-12",
+      "type": "BD / License",
+      "parties": "SciNeuro → Novartis",
+      "asset": "Amyloid-β抗体 / BBB shuttle",
+      "technology": "",
+      "stage": "早期",
+      "territory": "待原始公告核对",
+      "upfront": "$165M",
+      "milestones": "请参照原始公告，待核对",
+      "total": "最高约$1.7B",
+      "royalty": "未披露/待核对",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "金额为公告约定条款或最高潜在对价，非实际到账金额。该条目前来自2026年度二级交易追踪，尚未逐项核对原始公告。",
+      "url": "https://visionlifesciences.com/insights/china-biotech-outbound-licensing-tracker",
+      "status": "二级来源；待逐条核对原始公告"
+    },
+    {
+      "date": "2026-01-12",
+      "type": "License-out",
+      "parties": "Nuvation Bio → Eisai",
+      "asset": "taletrectinib / IBTROZI",
+      "technology": "ROS1选择性口服抑制剂",
+      "stage": "已在美国、中国、日本获批",
+      "territory": "欧洲、中东、加拿大、澳大利亚、新西兰和部分亚洲国家；不含美国、中国及日本",
+      "upfront": "€50 million；公司2026年半年报确认已收款",
+      "milestones": "监管里程碑€25 million；销售里程碑最高€120 million",
+      "total": "最高€195 million（含首付款和全部潜在里程碑，不含销售提成）",
+      "royalty": "分级销售提成，低双位数至高十位百分比",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "2026年1月11日签约，1月12日公告；2026年半年报确认首付款已收到，未来里程碑仍为或有对价。",
+      "url": "https://www.sec.gov/Archives/edgar/data/1811063/000119312526336646/nuvb-20260630.htm",
+      "status": "SEC 10-Q及官方附件核实"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-08-28",
+  "record_type": "event_day_digest",
+  "coverage": "已核实公开公告的部分行业事件；未进行当日全维度新闻及收盘行情核验",
+  "summary": "2026-08-28 已归档 1 项BD/合作交易及 1 项其他事件；不是完整每日情报。",
+  "deals": [
+    {
+      "date": "2026-08-28",
+      "type": "BD / License",
+      "parties": "DualityBio → Genentech (Roche)",
+      "asset": "DUPAC ADC payload platform",
+      "technology": "",
+      "stage": "发现阶段",
+      "territory": "待原始公告核对",
+      "upfront": "$45M",
+      "milestones": "请参照原始公告，待核对",
+      "total": "超过$1.0B",
+      "royalty": "未披露/待核对",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "金额为公告约定条款或最高潜在对价，非实际到账金额。该条目前来自2026年度二级交易追踪，尚未逐项核对原始公告。",
+      "url": "https://visionlifesciences.com/insights/china-biotech-outbound-licensing-tracker",
+      "status": "二级来源；待逐条核对原始公告"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-08-28",
+      "type": "regulation",
+      "title": "FDA批准rusfertide（Mimrylo）用于成人真性红细胞增多症",
+      "summary": "首创肝铁调素模拟治疗路径；对同靶点管线估值可比性有影响。",
+      "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/4275966?reqfrom=share",
+      "status": "官方公告核实"
+    }
+  ],
+  "indices": []
+}

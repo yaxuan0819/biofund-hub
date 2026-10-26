@@ -1,0 +1,27 @@
+{
+  "date": "2026-03-29",
+  "record_type": "event_day_digest",
+  "coverage": "BD/M&A only; not a complete daily news bulletin",
+  "summary": "2026-03-29 已收录 1 项历史BD/并购事件。本页面是事件日期归档，不是完整的每日行业情报；临床、监管、指数未进行该日全面核查。",
+  "deals": [
+    {
+      "date": "2026-03-29",
+      "type": "BD / License",
+      "parties": "Insilico Medicine → Eli Lilly",
+      "asset": "AI设计口服候选药物",
+      "technology": "",
+      "stage": "临床前",
+      "territory": "待原始公告核对",
+      "upfront": "$115M",
+      "milestones": "请参照原始公告，待核对",
+      "total": "最高约$2.75B",
+      "royalty": "未披露/待核对",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "金额为公告约定条款或最高潜在对价，非实际到账金额。该条目前来自2026年度二级交易追踪，尚未逐项核对原始公告。",
+      "url": "https://visionlifesciences.com/insights/china-biotech-outbound-licensing-tracker",
+      "status": "二级来源；待逐条核对原始公告"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

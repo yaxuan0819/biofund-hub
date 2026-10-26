@@ -1,7 +1,26 @@
 {
   "year": 2025,
-  "coverage": "精选公开事件，非全年完整采集",
+  "coverage": "历史BD许可合作与并购精选记录；非该年度全量。已核对记录见原始公告，未披露金额保留为空/未披露。",
   "records": [
+    {
+      "id": "BDPRIORITY-2025-BAY-KUM",
+      "year": 2025,
+      "date": "2025-08-12",
+      "category": "BD / 许可合作",
+      "title": "拜耳与Kumquat Biosciences达成KRAS G12D全球许可合作",
+      "company": "Kumquat Biosciences / Bayer",
+      "asset": "KRAS G12D抑制剂",
+      "technology": "小分子 / KRAS G12D",
+      "stage": "Phase 1a（由Kumquat启动）",
+      "upfront": "未单独披露",
+      "milestones": "含临床及商业化里程碑，未单独拆分",
+      "headline": "合计最高$1.3bn（含首付与里程碑）",
+      "royalty": "净销售额阶梯提成，具体比例未公开",
+      "territory": "全球独家",
+      "notes": "公告未单独给出首付款，不能倒推或把$1.3bn记作首付款。",
+      "source": "https://www.bayer.com/en/us/news-stories/license-and-collaboration-in-precision-oncology",
+      "status": "原始公告已核对"
+    },
     {
       "id": "H0007",
       "year": 2025,
@@ -39,6 +58,25 @@
       "notes": "股权投资不是许可首付款；不同口径的headline value不可简单相加。",
       "source": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-enters-exclusive-licensing-agreement-3sbio",
       "status": "原始公告已核对"
+    },
+    {
+      "id": "BDPRIORITY-2025-BIIB-STOK",
+      "year": 2025,
+      "date": "2025-02-18",
+      "category": "BD / 商业化许可",
+      "title": "Biogen与Stoke合作开发及商业化zorevunersen",
+      "company": "Stoke Therapeutics / Biogen",
+      "asset": "zorevunersen (STK-001)",
+      "technology": "反义寡核苷酸 ASO / SCN1A",
+      "stage": "Phase 3准备阶段（签约时）",
+      "upfront": "$165m",
+      "milestones": "最高$385m（研发与商业化）",
+      "headline": "最高$550m（首付款＋或有里程碑）",
+      "royalty": "低双位数至高十位数阶梯销售提成",
+      "territory": "Biogen：美国、加拿大、墨西哥以外全球；Stoke保留美加墨",
+      "notes": "Biogen后续SEC文件披露2025年实际支付$165m首付款；签约公告与付款确认日期要区分。",
+      "source": "https://investors.biogen.com/news-releases/news-release-details/biogen-and-stoke-therapeutics-enter-collaboration-develop-and",
+      "status": "原始公告及后续财务披露已核对"
     }
   ]
 }

@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-23",
+  "record_type": "event_day_digest",
+  "coverage": "选定公告的历史事件（不含当日所有行业事件与交易日指数）",
+  "summary": "2026-10-23：BD/合作 2 条，其他事件 1 条；非完整日报。",
+  "deals": [
+    {
+      "date": "2026-10-23",
+      "type": "BD / 近期日报",
+      "parties": "Bolt Biotherapeutics / Prana Therapies",
+      "asset": "PRA-216，IL-4Rα/TSLP双特异性抗体",
+      "technology": "长半衰期双抗",
+      "stage": "II期",
+      "territory": "非License交易，不适用",
+      "upfront": "换股并购，无单独披露现金收购首付款",
+      "milestones": "未披露/不适用",
+      "total": "不适用；潜在额外6000万美元取决于权证行权",
+      "royalty": "不适用",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "并购换股比例与融资增发均可能导致稀释；PIPE实际到账后才能改善现金余额与runway，权证收入属于或有融资。 已付款情况：PIPE截至统计时点未核实到账",
+      "url": "https://finance.yahoo.com/healthcare/articles/bolt-biotherapeutics-announces-acquisition-prana-130800678.html",
+      "status": "沿用v8日报，待逐项复核"
+    },
+    {
+      "date": "2026-10-23",
+      "type": "BD / License",
+      "parties": "Zymeworks → Roche",
+      "asset": "ZW209 (DLL3 trispecific T-cell engager)",
+      "technology": "DLL3 三特异性T细胞连接器",
+      "stage": "I期启动，FDA IND获批",
+      "territory": "全球独家",
+      "upfront": "5500万美元合同首付款（HSR许可后应付；未证实到账）",
+      "milestones": "Ⅰb期启动触发4000万美元；其他研发、商业及销售里程碑最高7.18亿美元",
+      "total": "合计潜在8.13亿美元（5500万+4000万+7.18亿），不含销售提成",
+      "royalty": "高个位数至十几个百分点的分级销售提成",
+      "paid_amount": "未核实到账",
+      "impact": "不可把尚需监管许可的首付款作为已到账；Ⅰb期启动付款为有条件付款。",
+      "url": "https://ir.zymeworks.com/news-releases/news-release-details/zymeworks-enters-exclusive-global-license-and-collaboration",
+      "status": "原始公告/SEC备案核实公开合同条款；实际收款未确认"
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-10-23",
+      "type": "bd-platform",
+      "title": "Tempus AI与BMS扩大肿瘤多模态数据许可合作",
+      "summary": "BMS获数据许可至2031年并可使用Lens AI平台；未披露交易金额，属于数据许可而非候选药物License-out。",
+      "url": "https://www.tempus.com/news/pr/tempus-expands-strategic-collaboration-with-bristol-myers-squibb/",
+      "status": "监管机构/企业公告核实"
+    }
+  ],
+  "indices": []
+}

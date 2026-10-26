@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-31",
+  "record_type": "event_day_digest",
+  "coverage": "选定公告的历史事件（不含当日所有行业事件与交易日指数）",
+  "summary": "2026-07-31：BD/合作 0 条，其他事件 1 条；非完整日报。",
+  "deals": [],
+  "news": [
+    {
+      "date": "2026-07-31",
+      "type": "regulation",
+      "title": "Pluvicto获FDA批准拓展至PSMA阳性转移性激素敏感前列腺癌",
+      "summary": "Novartis公告适应症扩展，引用P SMAddition研究进展/死亡风险降低33%；关注RLT产能与放射药估值。",
+      "url": "https://www.novartis.com/us-en/news/media-releases/fda-approves-pluvicto-psma-metastatic-hormone-sensitive-prostate-cancer-mhspc-advancing-potential-new-standard-care-across-metastatic-disease",
+      "status": "监管机构/企业公告核实"
+    }
+  ],
+  "indices": []
+}

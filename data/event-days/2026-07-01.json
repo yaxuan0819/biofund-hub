@@ -1,0 +1,18 @@
+{
+  "date": "2026-07-01",
+  "record_type": "event_day_digest",
+  "coverage": "已核实公开公告的部分行业事件；未进行当日全维度新闻及收盘行情核验",
+  "summary": "2026-07-01 已归档 0 项BD/合作交易及 1 项其他事件；不是完整每日情报。",
+  "deals": [],
+  "news": [
+    {
+      "date": "2026-07-01",
+      "type": "regulation",
+      "title": "FDA宣布批准适用于较年幼镰状细胞病患儿的基因疗法",
+      "summary": "关注基因治疗适应症拓展、生产能力及支付限制。",
+      "url": "https://www.fda.gov/news-events/fda-newsroom?page=3&ts=1606947308",
+      "status": "官方公告核实"
+    }
+  ],
+  "indices": []
+}

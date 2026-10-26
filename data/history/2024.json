@@ -1,26 +1,7 @@
 {
   "year": 2024,
-  "coverage": "精选公开事件，非全年完整采集",
+  "coverage": "历史BD许可合作与并购精选记录；非该年度全量。已核对记录见原始公告，未披露金额保留为空/未披露。",
   "records": [
-    {
-      "id": "H0005",
-      "year": 2024,
-      "date": "2024-02-22",
-      "category": "并购",
-      "title": "阿斯利康完成收购亘喜生物",
-      "company": "AstraZeneca / Gracell",
-      "asset": "GC012F",
-      "technology": "BCMA/CD19双靶点CAR-T",
-      "stage": "临床阶段",
-      "upfront": "约$1.0bn交割现金",
-      "milestones": "潜在CVR最高约$0.2bn",
-      "headline": "最高潜在约$1.2bn",
-      "royalty": "不适用",
-      "territory": "整体公司收购",
-      "notes": "交割价约$1.0bn；潜在CVR必须与已支付金额分开。",
-      "source": "https://www.astrazeneca.com/media-centre/press-releases/2024/acquisition-of-gracell-completed.html",
-      "status": "原始公告已核对"
-    },
     {
       "id": "H0006",
       "year": 2024,
@@ -39,6 +20,44 @@
       "notes": "许可2024年12月交割，前款实际2025年1月支付；不等同2024年到账。",
       "source": "https://www.sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm",
       "status": "月份已核实；日期按月记"
+    },
+    {
+      "id": "BDPRIORITY-2024-SDGR-NVS",
+      "year": 2024,
+      "date": "2024-11-12",
+      "category": "BD / 平台合作",
+      "title": "Schrödinger与诺华达成多靶点药物发现合作及软件许可拓展",
+      "company": "Schrödinger / Novartis",
+      "asset": "多靶点计算药物发现项目",
+      "technology": "计算化学 / 小分子药物发现",
+      "stage": "发现阶段",
+      "upfront": "$150m",
+      "milestones": "研发及监管最高$892m；商业最高$1.38bn",
+      "headline": "潜在付款最高约$2.422bn（不含软件授权另行条款）",
+      "royalty": "净销售额中个位数至低双位数阶梯提成",
+      "territory": "全球",
+      "notes": "潜在总额是首付加有条件里程碑的理论最高值。",
+      "source": "https://ir.schrodinger.com/press-releases/news-details/2024/Schrdinger-Announces-Multi-Target-Collaboration-and-Expanded-Software-Licensing-Agreement-with-Novartis/default.aspx",
+      "status": "原始公告已核对"
+    },
+    {
+      "id": "H0005",
+      "year": 2024,
+      "date": "2024-02-22",
+      "category": "并购",
+      "title": "阿斯利康完成收购亘喜生物",
+      "company": "AstraZeneca / Gracell",
+      "asset": "GC012F",
+      "technology": "BCMA/CD19双靶点CAR-T",
+      "stage": "临床阶段",
+      "upfront": "约$1.0bn交割现金",
+      "milestones": "潜在CVR最高约$0.2bn",
+      "headline": "最高潜在约$1.2bn",
+      "royalty": "不适用",
+      "territory": "整体公司收购",
+      "notes": "交割价约$1.0bn；潜在CVR必须与已支付金额分开。",
+      "source": "https://www.astrazeneca.com/media-centre/press-releases/2024/acquisition-of-gracell-completed.html",
+      "status": "原始公告已核对"
     }
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-19",
+  "record_type": "event_day_digest",
+  "coverage": "BD/M&A only; not a complete daily news bulletin",
+  "summary": "2026-10-19 已收录 3 项历史BD/并购事件。本页面是事件日期归档，不是完整的每日行业情报；临床、监管、指数未进行该日全面核查。",
+  "deals": [
+    {
+      "date": "2026-10-19",
+      "type": "BD / 近期日报",
+      "parties": "豪森药业 Hansoh Pharma → Roche",
+      "asset": "两项临床前ADC及多个平台ADC项目",
+      "technology": "ADC平台",
+      "stage": "临床前",
+      "territory": "罗氏取得大中华区以外权益；豪森保留中国内地、香港、澳门、台湾权益",
+      "upfront": "4.00亿美元（合同约定，非已确认到账）",
+      "milestones": "研发/监管/商业里程碑潜在超过150亿美元",
+      "total": "4亿美元首付 + 1.1亿美元周年付款 + 潜在超过150亿美元里程碑，未计销售提成",
+      "royalty": "分级销售提成，具体比例未披露",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "headline value高度依赖后续项目成功；收入确认应依各履约义务、交易价格可变对价约束和合同条件确定，不能全额确认。 已付款情况：未核实到账",
+      "url": "https://www.hspharm.com/news/news-detail-513518.htm",
+      "status": "沿用v8日报，待逐项复核"
+    },
+    {
+      "date": "2026-10-19",
+      "type": "BD / 近期日报",
+      "parties": "METiS TechBio 剂泰科技 → Eli Lilly 礼来",
+      "asset": "组织特异性LNP药物递送平台",
+      "technology": "AI优化脂质纳米颗粒LNP",
+      "stage": "平台研发",
+      "territory": "原始公告未明确具体授权地域",
+      "upfront": "千万美元低段至数千万美元区间（原文low double-digit millions；未披露精确值）",
+      "milestones": "最高约11亿美元研发/监管/商业里程碑",
+      "total": "不应将约11亿美元里程碑误作全部确定对价",
+      "royalty": "单个位数百分比阶梯销售提成，具体比例未披露",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "平台商业化仍早期；现金跑道改善取决于首款到账，远期里程碑需折现及概率调整。 已付款情况：未核实到账",
+      "url": "https://metistechbio.com/en/qyxw/253.html",
+      "status": "沿用v8日报，待逐项复核"
+    },
+    {
+      "date": "2026-10-19",
+      "type": "BD / License",
+      "parties": "Hansoh Pharma → Roche",
+      "asset": "ADC portfolio",
+      "technology": "",
+      "stage": "临床前/发现",
+      "territory": "待原始公告核对",
+      "upfront": "$400M（另约定周年款）",
+      "milestones": "请参照原始公告，待核对",
+      "total": "超过$15B",
+      "royalty": "未披露/待核对",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "金额为公告约定条款或最高潜在对价，非实际到账金额。该条目前来自2026年度二级交易追踪，尚未逐项核对原始公告。",
+      "url": "https://visionlifesciences.com/insights/china-biotech-outbound-licensing-tracker",
+      "status": "二级来源；待逐条核对原始公告"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

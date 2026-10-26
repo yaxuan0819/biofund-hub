@@ -1,0 +1,44 @@
+{
+  "date": "2026-01-30",
+  "record_type": "event_day_digest",
+  "coverage": "已核实公开公告的部分行业事件；未进行当日全维度新闻及收盘行情核验",
+  "summary": "2026-01-30 已归档 2 项BD/合作交易及 0 项其他事件；不是完整每日情报。",
+  "deals": [
+    {
+      "date": "2026-01-30",
+      "type": "BD / License",
+      "parties": "CSPC Pharmaceutical → AstraZeneca",
+      "asset": "8项肥胖/糖尿病候选项目 / SYH2082",
+      "technology": "",
+      "stage": "临床前/IND准备",
+      "territory": "待原始公告核对",
+      "upfront": "$1.2B",
+      "milestones": "请参照原始公告，待核对",
+      "total": "最高约$18.5B",
+      "royalty": "未披露/待核对",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "金额为公告约定条款或最高潜在对价，非实际到账金额。该条目前来自2026年度二级交易追踪，尚未逐项核对原始公告。",
+      "url": "https://visionlifesciences.com/insights/china-biotech-outbound-licensing-tracker",
+      "status": "二级来源；待逐条核对原始公告"
+    },
+    {
+      "date": "2026-01-30",
+      "type": "BD / License / 战略合作",
+      "parties": "石药集团 CSPC → AstraZeneca",
+      "asset": "SYH2082及长效代谢肽药物平台",
+      "technology": "长效多肽/GLP-1R/GIPR",
+      "stage": "临床准备阶段及临床前",
+      "territory": "中国以外全球权益（SYH2082及所述资产）",
+      "upfront": "12亿美元（协议首付款，未核实到账）",
+      "milestones": "最高173亿美元额外里程碑（需满足条件）",
+      "total": "潜在总额最高185亿美元；不是已到账收入",
+      "royalty": "未披露/见原公告",
+      "paid_amount": "未核实到账",
+      "impact": "重大License-out；对可比交易估值有参考价值，但最高里程碑不得当成已实现收入。 已付款情况：没有原始付款凭证，尚未核实到账。",
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-agrees-obesity-and-t2d-deal-with-cspc.html",
+      "status": "原始企业公告核实交易基本条款；实际到账未知"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

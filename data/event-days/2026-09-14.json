@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-14",
+  "record_type": "event_day_digest",
+  "coverage": "选定公告的历史事件（不含当日所有行业事件与交易日指数）",
+  "summary": "2026-09-14：BD/合作 0 条，其他事件 1 条；非完整日报。",
+  "deals": [],
+  "news": [
+    {
+      "date": "2026-09-14",
+      "type": "regulation",
+      "title": "FDA批准Isembyld(apitegromab)用于SMA肌肉功能改善",
+      "summary": "适用于已接受SMN2靶向治疗的≥2岁患者；52周Ⅲ期研究有显著运动功能改善，需关注骨折风险。",
+      "url": "https://content.govdelivery.com/accounts/USFDA/bulletins/42a851b",
+      "status": "监管机构/企业公告核实"
+    }
+  ],
+  "indices": []
+}

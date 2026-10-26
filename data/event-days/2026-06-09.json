@@ -1,0 +1,27 @@
+{
+  "date": "2026-06-09",
+  "record_type": "event_day_digest",
+  "coverage": "已核实公开公告的部分行业事件；未进行当日全维度新闻及收盘行情核验",
+  "summary": "2026-06-09 已归档 1 项BD/合作交易及 0 项其他事件；不是完整每日情报。",
+  "deals": [
+    {
+      "date": "2026-06-09",
+      "type": "BD / License / 战略合作",
+      "parties": "江苏威凯尔 Vcare PharmaTech → 云顶新耀 Everest Medicines",
+      "asset": "Sumecigrel（原Vicagrel）",
+      "technology": "心血管小分子",
+      "stage": "未在该公告说明",
+      "territory": "亚太指定地区（东南亚、韩国、澳大利亚及部分大中华区）",
+      "upfront": "人民币2000万元（协议首付款，未核实到账）",
+      "milestones": "后续里程碑及供货采购安排，金额未披露",
+      "total": "未披露可比总对价",
+      "royalty": "未披露/见原公告",
+      "paid_amount": "未核实到账",
+      "impact": "License-in；不能把未披露的里程碑反推为确定合同价值。 已付款情况：没有原始付款凭证，尚未核实到账。",
+      "url": "https://www.prnewswire.com/apac/news-releases/everest-medicines-enters-into-exclusive-asia-pacific-licensing-agreement-with-vcare-pharmatech-for-sumecigrel-302794558.html",
+      "status": "原始企业公告核实交易基本条款；实际到账未知"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

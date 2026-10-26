@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-15",
+  "record_type": "event_day_digest",
+  "coverage": "选定公告的历史事件（不含当日所有行业事件与交易日指数）",
+  "summary": "2026-10-15：BD/合作 1 条，其他事件 0 条；非完整日报。",
+  "deals": [
+    {
+      "date": "2026-10-15",
+      "type": "BD / License",
+      "parties": "insitro → AstraZeneca",
+      "asset": "MASH及心肌病AI辅助靶点发现与治疗项目",
+      "technology": "AI靶点发现/心血管代谢",
+      "stage": "发现/临床前",
+      "territory": "全球独家（选定项目）",
+      "upfront": "4000万美元协议首付款（未证实到账）",
+      "milestones": "研发及商业里程碑最高14.6亿美元",
+      "total": "潜在总额约15亿美元，不含销售提成",
+      "royalty": "潜在个位数比例销售提成",
+      "paid_amount": "未核实到账",
+      "impact": "AI平台型合作，多个选定项目，不宜直接用headline/资产数作单品估值。",
+      "url": "https://www.astrazeneca.com/media-centre/press-releases/2026/astrazeneca-announces-new-strategic-collaboration-with-insitro-to-use-advanced-ai-systems-to-develop-transformative-therapeutics.html",
+      "status": "原始公告/SEC备案核实公开合同条款；实际收款未确认"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

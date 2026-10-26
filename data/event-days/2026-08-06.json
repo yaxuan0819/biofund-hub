@@ -1,0 +1,18 @@
+{
+  "date": "2026-08-06",
+  "record_type": "event_day_digest",
+  "coverage": "选定公告的历史事件（不含当日所有行业事件与交易日指数）",
+  "summary": "2026-08-06：BD/合作 0 条，其他事件 1 条；非完整日报。",
+  "deals": [],
+  "news": [
+    {
+      "date": "2026-08-06",
+      "type": "regulation",
+      "title": "FDA加速批准Tudriqev联合nivolumab治疗PD-1耐药晚期黑色素瘤",
+      "summary": "FDA批准溶瘤病毒疗法；91例评价患者ORR 24%，DoR中位14.1个月，仍需确证试验。",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-new-engineered-viral-immunotherapy-patients-treatment-resistant-advanced-melanoma?trk=article-ssr-frontend-pulse_little-text-block",
+      "status": "监管机构/企业公告核实"
+    }
+  ],
+  "indices": []
+}

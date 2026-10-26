@@ -1,0 +1,27 @@
+{
+  "date": "2026-01-26",
+  "record_type": "event_day_digest",
+  "coverage": "BD/M&A only; not a complete daily news bulletin",
+  "summary": "2026-01-26 已收录 1 项历史BD/并购事件。本页面是事件日期归档，不是完整的每日行业情报；临床、监管、指数未进行该日全面核查。",
+  "deals": [
+    {
+      "date": "2026-01-26",
+      "type": "License-out / 平台合作",
+      "parties": "HealZen Therapeutics → 未公开美国生物技术公司",
+      "asset": "Degrader–Antibody Conjugate (DAC)项目",
+      "technology": "DAC / 靶向蛋白降解",
+      "stage": "未披露",
+      "territory": "HealZen保留大中华区权益",
+      "upfront": "合作公告提及首付款，金额未披露，是否已支付未披露",
+      "milestones": "开发及商业化里程碑，金额未披露",
+      "total": "未披露",
+      "royalty": "分级销售提成，比例未披露；另有潜在再许可收入",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "仅核实公开合作及付款结构；不得按未知首付款确认交易金额。",
+      "url": "https://www.healzentx.com/news_detail/35.html",
+      "status": "企业官网原始公告核实"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

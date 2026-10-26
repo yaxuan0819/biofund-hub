@@ -1,0 +1,27 @@
+{
+  "date": "2026-05-12",
+  "record_type": "event_day_digest",
+  "coverage": "BD/M&A only; not a complete daily news bulletin",
+  "summary": "2026-05-12 已收录 1 项历史BD/并购事件。本页面是事件日期归档，不是完整的每日行业情报；临床、监管、指数未进行该日全面核查。",
+  "deals": [
+    {
+      "date": "2026-05-12",
+      "type": "BD / License",
+      "parties": "Jiangsu Hengrui → Bristol Myers Squibb",
+      "asset": "13项肿瘤、血液及免疫研发项目",
+      "technology": "",
+      "stage": "发现/早期",
+      "territory": "待原始公告核对",
+      "upfront": "$600M（另有周年付款）",
+      "milestones": "请参照原始公告，待核对",
+      "total": "最高约$15.2B",
+      "royalty": "未披露/待核对",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "金额为公告约定条款或最高潜在对价，非实际到账金额。该条目前来自2026年度二级交易追踪，尚未逐项核对原始公告。",
+      "url": "https://visionlifesciences.com/insights/china-biotech-outbound-licensing-tracker",
+      "status": "二级来源；待逐条核对原始公告"
+    }
+  ],
+  "news": [],
+  "indices": []
+}

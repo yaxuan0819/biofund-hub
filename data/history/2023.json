@@ -1,7 +1,26 @@
 {
   "year": 2023,
-  "coverage": "精选公开事件，非全年完整采集",
+  "coverage": "历史BD许可合作与并购精选记录；非该年度全量。已核对记录见原始公告，未披露金额保留为空/未披露。",
   "records": [
+    {
+      "id": "H0004",
+      "year": 2023,
+      "date": "2023-12-31",
+      "category": "BD / License",
+      "title": "默沙东与科伦博泰ADC许可合作的2023年付款披露",
+      "company": "Merck / Kelun-Biotech",
+      "asset": "ADC合作项目",
+      "technology": "ADC",
+      "stage": "未在本条年报中逐资产拆分",
+      "upfront": "$175m（默沙东年报列示费用）",
+      "milestones": "未在本条年报中逐项披露",
+      "headline": "不宜据此推导总交易额",
+      "royalty": "未核实",
+      "territory": "合作",
+      "notes": "取自Merck 2024年10-K对2023年BD支出的回顾，以12月31日占位表示年度统计，并非交易发生日，具体签约日待核对。",
+      "source": "https://www.sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm",
+      "status": "年度确认；日期待核实"
+    },
     {
       "id": "H0003",
       "year": 2023,
@@ -22,23 +41,23 @@
       "status": "原始公告已核对"
     },
     {
-      "id": "H0004",
+      "id": "BDPRIORITY-2023-MRK-DS",
       "year": 2023,
-      "date": "2023-12-31",
-      "category": "BD / License",
-      "title": "默沙东与科伦博泰ADC许可合作的2023年付款披露",
-      "company": "Merck / Kelun-Biotech",
-      "asset": "ADC合作项目",
-      "technology": "ADC",
-      "stage": "未在本条年报中逐资产拆分",
-      "upfront": "$175m（默沙东年报列示费用）",
-      "milestones": "未在本条年报中逐项披露",
-      "headline": "不宜据此推导总交易额",
-      "royalty": "未核实",
-      "territory": "合作",
-      "notes": "取自Merck 2024年10-K对2023年BD支出的回顾，以12月31日占位表示年度统计，并非交易发生日，具体签约日待核对。",
-      "source": "https://www.sec.gov/Archives/edgar/data/310158/000162828025007732/mrk-20241231.htm",
-      "status": "年度确认；日期待核实"
+      "date": "2023-10-19",
+      "category": "BD / ADC",
+      "title": "默沙东与第一三共就3款DXd ADC达成全球开发与商业化合作",
+      "company": "Daiichi Sankyo / Merck (MSD)",
+      "asset": "patritumab deruxtecan、ifinatamab deruxtecan、raludotatug deruxtecan",
+      "technology": "ADC / DXd",
+      "stage": "临床阶段",
+      "upfront": "$4.0bn（公告归类前期付款；详见分期结构）",
+      "milestones": "$1.5bn后续固定/续期付款；最高$16.5bn或有销售里程碑",
+      "headline": "最高$22.0bn（含分期及或有金额，非已支付金额）",
+      "royalty": "共同开发商业化/分成，非单纯销售提成",
+      "territory": "全球，日本由第一三共独家保留",
+      "notes": "2023-10-19美东晚间发布，按美东日期记2023-10-19；其中前期付款按公告口径，执行时间分布不同，不应将全部当日现金到账。",
+      "source": "https://www.merck.com/news/daiichi-sankyo-and-merck-announce-global-development-and-commercialization-collaboration-for-three-daiichi-sankyo-dxd-adcs/",
+      "status": "原始公告已核对"
     }
   ]
 }

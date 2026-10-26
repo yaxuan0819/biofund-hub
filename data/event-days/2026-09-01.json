@@ -1,0 +1,27 @@
+{
+  "date": "2026-09-01",
+  "record_type": "event_day_digest",
+  "coverage": "BD/M&A only; not a complete daily news bulletin",
+  "summary": "2026-09-01 已收录 1 项历史BD/并购事件。本页面是事件日期归档，不是完整的每日行业情报；临床、监管、指数未进行该日全面核查。",
+  "deals": [
+    {
+      "date": "2026-09-01",
+      "type": "BD / License",
+      "parties": "Simcere Zaiming → Roche",
+      "asset": "SIM0660 / CD79a×CD19×CD3",
+      "technology": "",
+      "stage": "临床前/早期",
+      "territory": "待原始公告核对",
+      "upfront": "$75M",
+      "milestones": "请参照原始公告，待核对",
+      "total": "最高约$1.53B",
+      "royalty": "未披露/待核对",
+      "paid_amount": "请参考原公告和付款备注，不可假设里程碑已支付",
+      "impact": "金额为公告约定条款或最高潜在对价，非实际到账金额。该条目前来自2026年度二级交易追踪，尚未逐项核对原始公告。",
+      "url": "https://visionlifesciences.com/insights/china-biotech-outbound-licensing-tracker",
+      "status": "二级来源；待逐条核对原始公告"
+    }
+  ],
+  "news": [],
+  "indices": []
+}
