@@ -1,0 +1,57 @@
+{
+  "schema_version": "biofund-daily-v1",
+  "report_date": "2026-10-28",
+  "timezone": "Asia/Shanghai",
+  "observation_window_local": "2026-10-27 08:55 to 2026-10-28 08:55",
+  "market_date": "2026-10-27",
+  "language": "zh-CN",
+  "privacy": "public_industry_only_no_internal_portfolio",
+  "headline": "Artiva停研及死亡事件；Astellas/Audax上限13.4亿美元期权授权；A股医药走弱，美股NBI上涨",
+  "sections_markdown": "# 2026年10月28日｜BioFund每日生物医药行业情报\n\n> 监测窗口：北京时间 **10月27日08:55—10月28日08:55**。跨时区公告统一标明企业公告日期；市场采用**10月27日**最近完整交易日。检索以公司新闻稿、SEC/监管披露为先。市场价格和报道可能更新，本版为截至监测时点核验结果。**本日报仅含公开行业资讯，不含泰福内部投资信息。**\n\n## 一、今日速览\n\n**最重要的四件事：**① Artiva因临床疗效持续性不足与两起5级严重事件终止AlloNK，并计划裁减约94%人员，是细胞治疗投后风险的关键案例；② 安斯泰来Astellas取得Audax DAX-044的全球许可**选择权**，总潜在金额上限13.4亿美元，但2.85亿美元是首付和未来行权款**合并金额**，不能全部算首付；③ US WorldMeds完成收购Orbus，其III期试验整体意向治疗人群主要终点未达成，但预定IDH突变3级星形细胞瘤亚组显示获益；④ 中证全指医药10月27日跌3.16%，美股NBI涨1.87%，市场明显分化。\n\n**研究提醒：**“商业化协议签署”“行权完成”“监管获批”“现金已收”是不同阶段。将headline value计入基金估值或现金跑道会导致明显高估。\n\n## 二、全球BD / License / NewCo / 并购\n\n### 1. Astellas × Audax｜DAX-044肿瘤免疫IL-12抗体-细胞因子融合蛋白｜选择权+潜在许可\n\n- **公告：**2026-10-27（美东时间19:30）。**资产及阶段：**DAX-044 / AVIKINE平台；IND/CTN支持研究阶段，首项Ⅰ期试验预计2027年启动，尚非临床验证资产。\n- **权益：**安斯泰来先获得排他性选择权；**只有行权后**才取得全球开发、生产和商业化权。Audax保留在澳大利亚、新西兰共同出资与推广选择权。\n- **金额分层：**“首付款+未来可能的选择权行权款”**合计2.85亿美元**，各自金额未披露；另有**最高10.5亿美元**研发与商业里程碑；**潜在总对价最高13.4亿美元，不含销售提成**。销售提成为全球净销售额**分级两位数百分比**，具体阶梯未披露。\n- **收款状态：**公告没有提供首笔付款已实际到账的证据；未来行权款、里程碑尚未实现。**2.85亿不可写成已收首付**，13.4亿不可写成成交现金。\n- **投资含义：**早期肿瘤免疫资产通过大药企选择权获得验证，但许可能否真正生效、现金分期、临床安全性和选择权失效风险是估值折现重点。[企业原文](https://www.prnewswire.com/news-releases/astellas-and-audax-biosciences-enter-exclusive-option-and-license-agreement-for-dax-044-a-novel-immune-targeted-il-12-antibody-cytokine-fusion-for-immuno-oncology-302920594.html)\n\n### 2. OTXL × UCL Ventures / CMRI｜OTXL-101（AAVLK03hOTC）｜罕见病基因治疗License-in\n\n- **公告：**2026-10-27。**资产/技术：**针对鸟氨酸氨甲酰转移酶缺乏症（OTCD）的肝靶向AAV基因治疗。历史上原许可方开展HORACE Ⅰ/Ⅱ期，仅披露首位受试者，随后原开发商破产，项目权利回归学术机构，此次重新许可给非营利主体OTXL。\n- **地域：**许可地域与独家性具体细节未披露。**金额：**首付款、固定近期款、里程碑、headline和提成都未披露；OTXL一般采用低首付模式，不能据此推定本交易首付为0。\n- **投资含义：**临床项目搁置后重新开发的案例，关注原申办方破产、CMC可恢复性、研发资金、长期随访和患者安全资料完整性。[机构原文](https://www.prnewswire.com/news-releases/orphan-therapeutics-accelerator-in-licenses-investigational-gene-therapy-program-for-ornithine-transcarbamylase-deficiency-from-ucl-ventures-and-childrens-medical-research-institute-302919702.html)\n\n### 3. US WorldMeds × Orbus｜Orbus整体收购｜eflornithine（DFMO）脑胶质瘤\n\n- **公告：**2026-10-27。**交易状态：已完成收购**，Orbus现为US WorldMeds全资子公司，不是仍待交割的拟收购。\n- **资产/阶段：**口服eflornithine，ODC抑制剂，复发性3级星形细胞瘤，完成STELLARⅢ期研究。**买方已支付未披露金额的首期收购款**；另有开发、监管和销售里程碑及**美国净销售额分级版税**。所有具体美元金额、固定近期付款、潜在总对价均未公开。\n- **关键风险：**Ⅲ期研究整体ITT人群OS主要终点未达到；预先设定的IDH突变3级亚组（n=196）OS 34.9比23.5个月（HR 0.64），PFS 15.8比7.2个月（HR 0.57）。相关≥3级骨髓抑制42%比29%、听力损害24%比0%。亚组信号不能写成全试验达到主要终点。\n- **投资含义：**精准定义适应症可能提升资产价值，但监管对亚组证据的接受程度、后续试验投入和安全性决定实际里程碑兑现。[买方公告](https://www.prnewswire.com/news-releases/us-worldmeds-acquires-orbus-therapeutics-expanding-commitment-to-rare-diseases-and-advancing-eflornithine-in-adult-malignant-glioma-302921067.html)\n\n### 4. VolitionRx × Missionpharma｜NETosis床旁检测技术｜非约束性LOI（观察，不计已签BD）\n\n- **公告：**2026-10-27；计划探索NETosis侧向层析检测的开发、制造、分销及全球市场准入。\n- **状态：**目前只是**不具法律约束力的意向书**，并非最终许可或商业交易；所有付款未披露，已承诺BD金额记为“不适用”，不纳入签署交易合计。\n- **投资含义：**先记合作管线，不形成确定性现金收入或估值上调。[企业公告](https://www.prnewswire.com/news-releases/volitionrx-signs-loi-with-missionpharma-to-explore-the-development-and-launch-of-volitions-lateral-flow-technology-for-netosis-worldwide-302920590.html)\n\n**NewCo/平台联合开发：**在本次24小时窗口内未核实到足以按“正式签署且有明确资产”的其他重大NewCo交易。未将此前已公布、仅被媒体重新提及的合作充作当日新增BD。\n\n### 5. 历史BD回款跟踪（不是新交易）｜恒瑞医药2026年三季报\n\n恒瑞10月27日业绩更新披露创新药经营及对外授权收入变化，这是**历史授权协议现金流/收入跟踪**，不是2026年10月27日新签许可。核对报表确认应计收入与银行实际到账、分期条件和分摊期间，不得将已签headline累加成新交易。[恒瑞原始新闻稿](https://www.prnewswire.com/news-releases/hengrui-pharma-reports-steady-growth-in-the-first-nine-months-of-2026-302920563.html)\n\n## 三、临床数据、失败终止与安全性\n\n**Artiva / AlloNK（AB-101）—重大负面。**2026-10-27发布（董事会10-22决定）终止同种异体NK细胞治疗计划，包括原拟开展的关键Ⅲ期试验；长期随访疗效持续性不满足内部开发门槛。公司披露两起**5级事件（死亡）**：一名患者死于白质脑病，调查认为可能与清淋方案中的**氟达拉滨神经毒性**有关；另一名患者突然死亡，研究者判定与研究治疗无关、死因未明。FDA曾要求暂停Ⅱa期入组及给药。公司拟裁员约**94%**并评估并购、资产出售或清算。**不要误写成两起均由AlloNK直接导致。** [公司新闻稿](https://www.globenewswire.com/news-release/2026/10/27/3388875/0/en/artiva-biotherapeutics-announces-strategic-update-and-discontinues-development-of-allonk.html)\n\n**复宏汉霖 / Serplulimab（斯鲁利单抗）—美国桥接研究。**10-27发布（10-26 ESMO报告）的ASTRIDE美国随机开放标签、描述性研究n=201，在广泛期小细胞肺癌一线中与阿替利珠单抗联合化疗比较，中位OS 12.4比10.2个月，HR **0.82（95%CI 0.56—1.20）**；数值差异有利，但置信区间跨1，**不能认定统计学显著优于对照**。 [公司新闻稿](https://www.prnewswire.com/news-releases/henlius-reports-positive-results-from-astride-us-bridging-study-for-serplulimab-in-combination-with-chemotherapy-for-first-line-treatment-of-patients-with-extensive-stage-small-cell-lung-cancer-es-sclc-302920457.html)\n\n**Vanda / tradipitant（NEREUS）—Ⅲ期积极。**10-27公布针对GLP-1药物相关呕吐的Study 3601：任何呕吐43.0%（61/142）对照58.5%（96/164），p=0.006；计划与FDA沟通并提交补充新药申请，**尚非获批新适应症**。注意试验使用单次1mg司美格鲁肽且没有日常临床递增剂量方案，外推实际人群须审慎。[公司新闻稿](https://www.prnewswire.com/news-releases/vanda-pharmaceuticals-announces-positive-results-from-study-3601-of-nereus-tradipitant-for-prevention-of-glp-1induced-vomiting-302920054.html)\n\n**Orbus / STELLAR —Ⅲ期全人群失败、亚组有信号。**见第二部分；属于两类风险同时存在的典型案例，应保留ITT主要终点与亚组探索结果两层，不得只引用看似有利的亚组。[原文](https://www.prnewswire.com/news-releases/us-worldmeds-acquires-orbus-therapeutics-expanding-commitment-to-rare-diseases-and-advancing-eflornithine-in-adult-malignant-glioma-302921067.html)\n\n## 四、FDA / NMPA / CDE审批与医保政策\n\n**FDA申报，不是批准：**AbbVie于**2026-10-27**向FDA提交etentamig（BCMA×CD3双特异性抗体）用于复发难治性多发性骨髓瘤的BLA，依托CERVINOⅢ期研究。当前仅能确认**已提交申请**，不能写“FDA批准”。[AbbVie新闻稿](https://www.prnewswire.com/news-releases/abbvie-submits-biologics-license-application-bla-for-etentamig-to-us-fda-for-adults-living-with-relapsedrefractory-multiple-myeloma-302919984.html)\n\n**FDA安全监管：**Artiva公告披露FDA要求暂停AlloNKⅡa期入组与给药，参见上文公司原文；与新药上市审批不是一类事件。\n\n**中国NMPA/CDE与医保：**本次检索没有取得落在本窗口、可交叉验证的**全国性重大创新药新批准、CDE关键新政策或国家医保目录新变化**原始文件，因此不编造“今日批准”或拿旧消息冒充新消息。既有的2026医保目录调整工作属于政策背景，**不是10月27日新发布**。[2026目录工作背景](https://jrj.wuhan.gov.cn/ztzl_57/xyrd/bxy/202606/t20260601_2771416.shtml)\n\n## 五、一级市场融资、IPO及并购\n\n**Atlas Bio（瑞士AI药物研发服务）**：10-27披露由Creandum领投的**1000万美元种子轮**；此前已融**250万美元Pre-seed**仅在这次新闻中一并公开，累计**1250万美元**。数据库应分别保留历史Pre-seed和本次Seed，不可算成“本次融1250万美元”。尚属平台技术验证阶段，模拟临床试验能力需关注实际预测和客户付费转化。[Tech.eu](https://tech.eu/2026/10/27/swiss-startup-atlas-bio-secures-125m-to-tackle-drug-developments-70-failure-rate-and-move-beyond-animal-testing/)\n\n**并购：**US WorldMeds收购Orbus**已完成**，见BD第3笔。Artiva寻求战略备选方案**不等于宣布或完成并购**。\n\n**IPO：**本窗口未核验到应作为当日重大事件的新生物科技IPO定价/挂牌官方公告；仍需留意当周港股18A申报、聆讯和美国S-1。没有确证前不写“已IPO”。\n\n## 六、二级市场表现｜2026-10-27最近完整交易日\n\n| 指数（交易日10月27日） | 收盘点位 | 日涨跌幅 | 数据状态 |\n|---|---:|---:|---|\n| NASDAQ Biotechnology Index（NBI） | **7,150.77** | **+1.87%** | Nasdaq官方终值与第三方收盘表交叉核验 |\n| 中证全指医药（CSIASHCI） | **8,137.18** | **-3.16%** | 该指数，不是申万医药 |\n| 恒生指数（HSI，辅助市场） | **23,041.32** | **-0.73%** | 香港收盘 |\n| 恒生生物科技指数（HSBIO） | **待核实** | **待核实** | 未获得可靠完整交易日官方终值，不用盘中跌幅充收盘 |\n\n[纳斯达克指数官方页](https://indexes.nasdaq.com/Index/Overview/NBI) · [NBI历史收盘](https://www.investing.com/indices/nasdaq-biotechnology-historical-data) · [中证全指医药历史](https://cn.investing.com/indices/csi-all-share-health-care-historical-data) · [恒生指数历史](https://hk.finance.yahoo.com/quote/%5EHSI/history/)\n\n**驱动判断：**10-27港股医药板块下行，新闻提到基石药业、恒瑞等医药股下跌；A股医药指数显著回撤，美股生科指数反而收涨。相关性不等于因果，**暂无法仅根据单日新闻定量归因**为某一BD或监管事件；不应把海外指数上涨直接外推为人民币资产估值回升。[当日港股收评](https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwrzht4620790.shtml)\n\n## 七、对一级市场基金估值、现金跑道、融资与退出的含义\n\n**估值：**Astellas的**2.85亿美元并非已确认首付款**，13.4亿美元属于含条件的潜在值；采用风险调整NPV时按行权概率、成功率、现金时间及税费折现，不能将headline直接乘基金持股比例。Ⅲ期ITT失败而亚组积极的资产，应在适应症范围、监管成功率和补充试验成本上有更高折现。\n\n**现金跑道：**对早期药企单独跟踪已收与未收的固定款、预计研发支出和实际现金余额；Artiva披露的未审计资金规模不代表项目能继续经营，终止研发和裁员提示资源重新配置。OTXL这种低成本重新开发模式可降低基础设施负担，但资金和CMC风险不消失。\n\n**融资：**Atlas Bio新种子融资说明有差异化AI临床研发服务项目仍可募资；不能用个案认定赛道整体回暖。负面临床和监管事件应在融资假设中单独加入下行情景。\n\n**退出：**Orbus已被收购，交割不等于卖方全部尾款已到账；应跟踪现金首期付款、里程碑、版税、税金与剩余权益。Artiva目前只是评估战略选项，不能计为已退出。跨市场指数分化意味着IPO和减持估值要按A/H/US市场分别判断。\n\n## 八、数据完整性与更新说明\n\n**本次新增可归档的已签/已完成交易：3笔**（Astellas—Audax期权许可；OTXL—UCL/CMRI许可；US WorldMeds—Orbus并购）；另有**1笔非约束性LOI观察记录**，不计入签署BD交易总金额。历史BD业务结果（如恒瑞三季报）列为历史记录复核线索，不虚构新的当日交易。\n\n**信息缺口：**恒生生物科技指数可靠收盘值、窗口内新增NMPA/CDE/医保重大公告、若干合同金额细项及全国IPO全量筛查，均未达到完全核验条件。**“未核实”不等于“没有”。** 已提供JSON增量和去重主键，但缺乏原始完整BD主库，**未执行对既有109笔或其他历史记录的实际合并/修订**。\n\n**隐私与发布：**本包仅在本地生成，没有写入GitHub或任何网站；交易公告日按原企业发布日归入`2026-10-27.json`，并不是把所有美国10月27日晚间公告错误归档成北京时间10月28日。",
+  "market": [
+    {
+      "index": "NASDAQ Biotechnology Index (NBI)",
+      "date": "2026-10-27",
+      "close": 7150.77,
+      "change_pct": 1.87,
+      "source": "https://indexes.nasdaq.com/Index/Overview/NBI"
+    },
+    {
+      "index": "CSI All Share Healthcare (中证全指医药)",
+      "date": "2026-10-27",
+      "close": 8137.18,
+      "change_pct": -3.16,
+      "source": "https://cn.investing.com/indices/csi-all-share-health-care-historical-data"
+    },
+    {
+      "index": "Hang Seng Index",
+      "date": "2026-10-27",
+      "close": 23041.32,
+      "change_pct": -0.73,
+      "source": "https://hk.finance.yahoo.com/quote/%5EHSI/history/"
+    },
+    {
+      "index": "Hang Seng Biotechnology Index",
+      "date": "2026-10-27",
+      "close": null,
+      "change_pct": null,
+      "status": "未核实可靠收盘点位，避免编造",
+      "source": "https://finance.sina.com.cn/jjxw/2026-10-27/doc-iniwrzht4620790.shtml"
+    }
+  ],
+  "bd_signed_or_completed_ids": [
+    "bd-20261027-astellas-audax-dax044-option",
+    "bd-20261027-otxl-ucl-cmri-otxl101-license",
+    "bd-20261027-usworldmeds-orbus-acquisition"
+  ],
+  "bd_watchlist_ids": [
+    "watch-20261027-volition-missionpharma-netosis-loi"
+  ],
+  "historical_bd_master_merged": false,
+  "website_deployed": false,
+  "verification_notes": [
+    "BD归档日采用企业公告所在地日期；不按北京自然日强改公告日期",
+    "若没有历史完整数据库，不宣称已经全量去重或修订历史库",
+    "药监、医保、恒生生科收盘缺口已注明，未造数"
+  ]
+}
