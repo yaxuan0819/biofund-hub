@@ -1,0 +1,195 @@
+{
+  "schema_version": "biofund-delta-v1",
+  "event_date": "2026-10-28",
+  "date": "2026-10-28",
+  "deals": [
+    {
+      "date": "2026-10-28",
+      "parties": "Transpharmation Ltd. → OrganoTherapeutics SARL",
+      "asset": "OrganoTherapeutics SARL 股权/患者来源类器官平台",
+      "type": "M&A_completed",
+      "url": "https://www.prnewswire.com/news-releases/transpharmation-ltd-announces-strategic-acquisition-of-organotherapeutics-sarl-302921310.html"
+    },
+    {
+      "date": "2026-10-28",
+      "parties": "60 Degrees Pharmaceuticals ↔ University of Southern Mississippi",
+      "asset": "castanospermine，用于alpha-gal综合征研究",
+      "type": "Research collaboration / IP option",
+      "url": "https://investors.60degreespharma.com/news-releases/news-release-details/60-degrees-pharmaceuticals-announces-partnership-university"
+    },
+    {
+      "date": "2026-10-28",
+      "parties": "Pandorum Technologies ↔ Nucelion Therapeutics (Bharat Biotech subsidiary)",
+      "asset": "设计型外泌体：重度角膜疾病；湿性AMD",
+      "type": "Strategic manufacturing collaboration",
+      "url": "https://www.expresspharma.in/nucelion-pandorum-partner-on-two-prip-backed-ophthalmology-projects/"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "bd-20261028-transpharmation-organotherapeutics-ma",
+      "announcement_date": "2026-10-28",
+      "event_date": "2026-10-28",
+      "type": "M&A_completed",
+      "status": "completed",
+      "licensor": "Transpharmation Ltd.",
+      "licensee": "OrganoTherapeutics SARL",
+      "asset": "OrganoTherapeutics SARL 股权/患者来源类器官平台",
+      "technology": "CNS/神经退行性疾病类器官、临床前CRO",
+      "clinical_stage": "技术平台/临床前服务",
+      "territory": "整家公司并购，非地域授权",
+      "currency": null,
+      "upfront_payment_amount": null,
+      "upfront_payment_payment_status": "undisclosed",
+      "near_term_fixed_payments": null,
+      "contingent_milestones_max_usd": null,
+      "headline_max_usd": null,
+      "royalty": "不适用/未披露",
+      "actual_cash_paid_usd": null,
+      "reported_termed_values": {
+        "upfront": "收购对价未披露",
+        "near_term_payment": "无公开固定金额",
+        "milestones": "未披露",
+        "total": "未披露"
+      },
+      "verified": "收购方原始新闻稿",
+      "source_url": "https://www.prnewswire.com/news-releases/transpharmation-ltd-announces-strategic-acquisition-of-organotherapeutics-sarl-302921310.html",
+      "dedupe_status": "new_unique_2026-10-28",
+      "risk_notes_zh": "非药品License。可对器官模型/CRO平台整合估值提供定性参照，无法据此推算交易倍数。"
+    },
+    {
+      "id": "bd-20261028-60degrees-usm-sponsored-research",
+      "announcement_date": "2026-10-28",
+      "event_date": "2026-10-28",
+      "type": "Research collaboration / IP option",
+      "status": "announced",
+      "licensor": "60 Degrees Pharmaceuticals",
+      "licensee": "University of Southern Mississippi",
+      "asset": "castanospermine，用于alpha-gal综合征研究",
+      "technology": "天然亚氨基糖/科研赞助/未来知识产权商业化选择权",
+      "clinical_stage": "非临床模型",
+      "territory": "美国大学合作；结果知识产权商业化选择权范围未披露",
+      "currency": null,
+      "upfront_payment_amount": null,
+      "upfront_payment_payment_status": "research_funded_amount_undisclosed",
+      "near_term_fixed_payments": null,
+      "contingent_milestones_max_usd": null,
+      "headline_max_usd": null,
+      "royalty": "未披露",
+      "actual_cash_paid_usd": null,
+      "reported_termed_values": {
+        "upfront": "非许可首付款；公司赞助研究费用未披露",
+        "near_term_payment": "研究费用金额与节点未披露",
+        "milestones": "未披露",
+        "total": "未披露"
+      },
+      "verified": "上市公司投资者关系原始公告",
+      "source_url": "https://investors.60degreespharma.com/news-releases/news-release-details/60-degrees-pharmaceuticals-announces-partnership-university",
+      "dedupe_status": "new_unique_2026-10-28",
+      "risk_notes_zh": "60 Degrees承担研发成本，保留未来成果IP商业化选择权；不能视为已经取得正式药品许可或产生现金收入。"
+    },
+    {
+      "id": "bd-20261028-nucelion-pandorum-exosome-cdmo",
+      "announcement_date": "2026-10-28",
+      "event_date": "2026-10-28",
+      "type": "Strategic manufacturing collaboration",
+      "status": "announced",
+      "licensor": "Pandorum Technologies",
+      "licensee": "Nucelion Therapeutics (Bharat Biotech subsidiary)",
+      "asset": "设计型外泌体：重度角膜疾病；湿性AMD",
+      "technology": "Designer exosomes/细胞外囊泡、GMP工艺开发及CDMO",
+      "clinical_stage": "角膜项目拟临床评价；湿性AMD临床前",
+      "territory": "印度研发及试验，拟支持境外临床供货；无独家授权地域披露",
+      "currency": null,
+      "upfront_payment_amount": null,
+      "upfront_payment_payment_status": "not_confirmed",
+      "near_term_fixed_payments": null,
+      "contingent_milestones_max_usd": null,
+      "headline_max_usd": null,
+      "royalty": "未披露",
+      "actual_cash_paid_usd": null,
+      "reported_termed_values": {
+        "upfront": "未披露；项目总预算不是授权首付款",
+        "near_term_payment": "未披露",
+        "milestones": "未披露",
+        "total": "未披露License交易价值；两个项目计划支出合计₹16.97 crore"
+      },
+      "verified": "行业媒体二级报道，双方原始公告待核验",
+      "source_url": "https://www.expresspharma.in/nucelion-pandorum-partner-on-two-prip-backed-ophthalmology-projects/",
+      "dedupe_status": "new_unique_pending_primary_check",
+      "risk_notes_zh": "₹16.97 crore是计划项目投入（含最高₹8 crore PRIP政策支持），不能列作BD headline或已经到账金额。"
+    }
+  ],
+  "revisions": [
+    {
+      "id": "bd-20260723-dassault-arisglobal-ma",
+      "original_announcement_date": "2026-07-23",
+      "update_date": "2026-10-28",
+      "revision_type": "M&A_completion_status_update",
+      "dedupe_status": "do_not_count_as_new_unique",
+      "changed_fields": [
+        "completion_status",
+        "confirmed_cash_at_closing_usd"
+      ],
+      "confirmed_cash_at_closing_usd": 1800000000,
+      "contingent_ai_revenue_milestones_max_usd": 200000000,
+      "source_url": "https://www.3ds.com/newsroom/press-releases/dassault-systemes-takes-its-life-sciences-ambition-next-level-unified-ai-platform-connecting-science-medicine-and-patients"
+    },
+    {
+      "id": "bd-20261027-rumi-enthorin-ent7340-option",
+      "original_announcement_date": "2026-10-27",
+      "update_date": "2026-10-28",
+      "revision_type": "new_party_press_release_for_existing_option",
+      "dedupe_status": "historical_backfill_first_announcement_2026-10-27",
+      "source_url": "https://www.businesswire.com/news/home/20261028171694/en/",
+      "original_source_url": "https://www.businesswire.com/news/home/20261026087479/en/Rumi-Therapeutics-Announces-Licensing-Agreement-With-Enthorin-Therapeutics-to-Advance-RTX-7340-an-IND-Ready-PDE2-Inhibitor-for-Fragile-X-Syndrome"
+    },
+    {
+      "id": "bd-20261027-astellas-audax-dax044-option",
+      "original_announcement_date": "2026-10-27",
+      "update_date": "2026-10-28",
+      "revision_type": "cross_timezone_same_deal_no_new_entry",
+      "dedupe_status": "already_in_repo_event_day_2026-10-27",
+      "source_url": "https://newsroom.astellas.com/2026-10-28-astellas-and-audax-biosciences-enter-exclusive-option-and-license-agreement-for-dax-044-a-novel-immune-targeted-il-12-antibody-cytokine-fusion-for-immuno-oncology"
+    }
+  ],
+  "clinical_and_regulatory_cross_refs": [
+    {
+      "date": "2026-10-28",
+      "category": "临床III期/失败/终止",
+      "title": "Geron停止IMpactMF III期：DMC判断总生存期主要终点大概率无法达到",
+      "url": "https://rss.globenewswire.com/news-release/2026/10/28/3390096/35501/en/geron-corporation-provides-update-on-phase-3-impactmf-clinical-trial-of-imetelstat-in-relapsed-refractory-myelofibrosis.html"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "临床III期/阳性与安全性",
+      "title": "礼来retatrutide III期头对头胜过司美格鲁肽Ozempic 2mg",
+      "url": "https://lilly.gcs-web.com/news-releases/news-release-details/lillys-retatrutide-delivered-greater-a1c-reduction-and-more"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "NMPA/药品获批",
+      "title": "君实生物特瑞普利单抗后线尿路上皮癌适应症由附条件转常规批准",
+      "url": "https://www.prnasia.com/story/553613-1.shtml"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "FDA/孤儿药资格",
+      "title": "和黄医药sovleplenib获美国FDA原发免疫性血小板减少症孤儿药资格",
+      "url": "https://www.nasdaq.com/press-release/hutchmed-announces-sovleplenib-granted-us-fda-orphan-drug-designation-primary-immune"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "FDA/NDA受理",
+      "title": "Alume的bevonescein（ALM-488）手术神经显影剂NDA获FDA受理",
+      "url": "https://www.drugs.com/nda/bevonescein_261028.html"
+    },
+    {
+      "date": "2026-10-28",
+      "category": "FDA/法规政策",
+      "title": "FDA召开罕见病审评框架公共会议",
+      "url": "https://www.fda.gov/news-events/fda-meetings-conferences-and-workshops/fda-rare-disease-framework-initiative-public-meeting-10282026"
+    }
+  ],
+  "verification_notice": "首次公告日决定唯一交易归档日；重复公告与交割状态放revisions，不得把2次披露算2次交易。未知金额为null。"
+}
