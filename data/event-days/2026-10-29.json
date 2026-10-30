@@ -1,0 +1,183 @@
+{
+  "schema_version": "biofund-delta-v1",
+  "event_date": "2026-10-29",
+  "date": "2026-10-30",
+  "deals": [
+    {
+      "date": "2026-10-29",
+      "parties": "GC Biopharma + Hanmi Pharm → BioMarin",
+      "asset": "HM15421 / GC1134A（Fabry病）",
+      "type": "BD / License-out（韩方）·License-in（美方）",
+      "url": "https://www.biomarin.com/news/press-releases/biomarin-enters-into-exclusive-worldwide-license-agreement-with-gc-biopharma-and-hanmi-pharm-for-investigational-next-generation-enzyme-replacement-therapy-adding-a-second-potential-treatment-for-fab/"
+    },
+    {
+      "date": "2026-10-29",
+      "parties": "Laurus Labs → Galenvs Sciences Inc.",
+      "asset": "Galenvs Sciences Inc.约60%股权",
+      "type": "M&A / 股权收购",
+      "url": "https://www.lauruslabs.com/disclosures.html"
+    },
+    {
+      "date": "2026-10-29",
+      "parties": "Laurus Labs → SI & C Resins Private Limited",
+      "asset": "SI & C Resins Private Limited约52%股权",
+      "type": "M&A / 股权收购",
+      "url": "https://www.lauruslabs.com/disclosures.html"
+    }
+  ],
+  "announcements": [
+    {
+      "id": "bd-20261029-biomarin-gc-hanmi-hm15421",
+      "announcement_date": "2026-10-29",
+      "event_date": "2026-10-29",
+      "type": "BD / License-out（韩方）·License-in（美方）",
+      "status": "首次公告",
+      "licensor": "GC Biopharma + Hanmi Pharm",
+      "licensee": "BioMarin",
+      "parties": "GC Biopharma + Hanmi Pharm → BioMarin",
+      "asset": "HM15421 / GC1134A（Fabry病）",
+      "technology": "长效皮下注射重组α-Gal A酶替代治疗",
+      "clinical_stage": "I/II期",
+      "territory": "全球独家，韩国除外；韩方保留韩国商业化权利",
+      "currency": "USD",
+      "upfront_payment_amount": 70000000,
+      "upfront_payment_payment_status": "合同已签，首付款拟支付，现金到账未确认",
+      "near_term_fixed_payments": "无另行披露确定近期款",
+      "contingent_milestones_max_usd": 405000000,
+      "headline_max_usd": 475000000,
+      "royalty": "净销售额分层royalty，比例未公开",
+      "actual_cash_paid_usd": null,
+      "reported_termed_values": "最高USD 475,000,000，不含销售提成",
+      "verified": "BioMarin原始公告核验",
+      "source_url": "https://www.biomarin.com/news/press-releases/biomarin-enters-into-exclusive-worldwide-license-agreement-with-gc-biopharma-and-hanmi-pharm-for-investigational-next-generation-enzyme-replacement-therapy-adding-a-second-potential-treatment-for-fab/",
+      "dedupe_status": "first_announcement",
+      "risk_notes_zh": "病种外部BD对可比交易估值有参考价值；首付款是否到帐决定近端现金跑道改善幅度；远期对价按里程碑概率和贴现计量。"
+    },
+    {
+      "id": "bd-20261029-laurus-galenvs-60pct-ma",
+      "announcement_date": "2026-10-29",
+      "event_date": "2026-10-29",
+      "type": "M&A / 股权收购",
+      "status": "首次公告",
+      "licensor": "不适用/并购",
+      "licensee": "不适用/并购",
+      "parties": "Laurus Labs → Galenvs Sciences Inc.",
+      "asset": "Galenvs Sciences Inc.约60%股权",
+      "technology": "核酸相关研发、TIDES研发/技术服务平台",
+      "clinical_stage": "平台 / 非临床资产授权",
+      "territory": "加拿大公司股权收购；非药物地域许可",
+      "currency": "USD",
+      "upfront_payment_amount": null,
+      "upfront_payment_payment_status": "拟议交易，现金支付和交割未确认",
+      "near_term_fixed_payments": "拟投资合计USD 3,750,000（其中增资USD 2,750,000 + 老股USD 1,000,000；原表格待复核）",
+      "contingent_milestones_max_usd": null,
+      "headline_max_usd": null,
+      "royalty": "不适用",
+      "actual_cash_paid_usd": null,
+      "reported_termed_values": "拟投资USD 3,750,000（待原申报文件逐栏核验）",
+      "verified": "上市公司官方公告目录核实交易存在；金额为交易所公告摘要二级整理，待逐栏核对",
+      "source_url": "https://www.lauruslabs.com/disclosures.html",
+      "dedupe_status": "first_announcement",
+      "risk_notes_zh": "预计加强核酸药物外包能力；付款前不应在卖方现金流中视为已实现。"
+    },
+    {
+      "id": "bd-20261029-laurus-sicresins-52pct-ma",
+      "announcement_date": "2026-10-29",
+      "event_date": "2026-10-29",
+      "type": "M&A / 股权收购",
+      "status": "首次公告",
+      "licensor": "不适用/并购",
+      "licensee": "不适用/并购",
+      "parties": "Laurus Labs → SI & C Resins Private Limited",
+      "asset": "SI & C Resins Private Limited约52%股权",
+      "technology": "多肽/药物合成所需树脂、聚合物和硅基材料平台",
+      "clinical_stage": "材料与CDMO产业链，非药品临床许可",
+      "territory": "印度境内公司股权收购；非药物地域许可",
+      "currency": "INR",
+      "upfront_payment_amount": null,
+      "upfront_payment_payment_status": "拟议交易，现金支付和交割未确认",
+      "near_term_fixed_payments": "拟增资INR 32.50 crore；原始公告附件金额待逐栏复核",
+      "contingent_milestones_max_usd": null,
+      "headline_max_usd": null,
+      "royalty": "不适用",
+      "actual_cash_paid_usd": null,
+      "reported_termed_values": "拟投资INR 32.50 crore（非美元BD headline）",
+      "verified": "上市公司官方公告目录核实交易存在；金额为交易文件二级解读，待原附件逐栏复核",
+      "source_url": "https://www.lauruslabs.com/disclosures.html",
+      "dedupe_status": "first_announcement",
+      "risk_notes_zh": "垂直整合对多肽产业链供给与毛利率可能有影响，不能等同新药授权的里程碑收入。"
+    },
+    {
+      "id": "update-20261029-novavax-sanofi-phase3-125m",
+      "announcement_date": "2026-10-29",
+      "event_date": "2026-10-29",
+      "type": "既有合作进展 / 里程碑修订",
+      "status": "既有交易状态更新",
+      "licensor": "Novavax",
+      "licensee": "Sanofi",
+      "parties": "Novavax ↔ Sanofi（原始合作于2024年宣布）",
+      "asset": "Nuvaxovid 与高剂量流感疫苗联合III期试验",
+      "technology": "COVID-19蛋白疫苗 + 高剂量流感疫苗",
+      "clinical_stage": "III期在欧洲启动",
+      "territory": "欧洲临床试验；原合作授权范围以2024年合同为准",
+      "currency": "USD",
+      "upfront_payment_amount": null,
+      "upfront_payment_payment_status": "里程碑已达成，现金到账尚未核验",
+      "near_term_fixed_payments": "触发/earned USD 125,000,000里程碑，不等于已收到",
+      "contingent_milestones_max_usd": null,
+      "headline_max_usd": null,
+      "royalty": "Nuvaxovid、联合疫苗及Matrix-M相关royalty，具体比例视合同",
+      "actual_cash_paid_usd": null,
+      "reported_termed_values": "不适用：本次是既有授权合同里程碑进展，不应把余额当新BD headline",
+      "verified": "Novavax公司原始新闻稿；注意脚注收入确认期间与新闻日期存在口径差异",
+      "source_url": "https://www.prnewswire.com/news-releases/novavax-earns-125-million-milestone-as-sanofi-launches-phase-3-influenza-covid-19-combination-vaccine-trial-in-europe-302923786.html",
+      "dedupe_status": "revision_only_no_new_history_record",
+      "risk_notes_zh": "对既有合作资产营收可见度有影响，但未收到的里程碑不计入现金余额。"
+    }
+  ],
+  "revisions": [
+    {
+      "id": "bd-update-20261029-novavax-sanofi-2024agreement",
+      "original_announcement_date": "2024-05-10",
+      "update_date": "2026-10-29",
+      "revision_type": "既有合作临床/里程碑触发",
+      "dedupe_status": "revision_only_no_new_2026_trade",
+      "changed_fields": {
+        "phase3": "欧洲III期已启动、5名受试者入组触发条件",
+        "milestone_earned_usd": 125000000,
+        "paid_status": "实际到账未证实",
+        "future_tech_transfer_usd": 75000000,
+        "future_us_launch_usd": 225000000
+      },
+      "source_url": "https://www.prnewswire.com/news-releases/novavax-earns-125-million-milestone-as-sanofi-launches-phase-3-influenza-covid-19-combination-vaccine-trial-in-europe-302923786.html",
+      "note": "2024年合作历史库对应项待核对后原位修订；不能在2026年作为首次公告的新交易新增。原文脚注收入统计时间与新闻当日有不一致，现金确认待复核。"
+    }
+  ],
+  "clinical_and_regulatory_cross_refs": [
+    {
+      "date": "2026-10-29",
+      "category": "临床III期/失败复核",
+      "title": "aTyr efzofitimod EFZO-FIT Ⅲ期论文发表，主要糖皮质激素减量终点未达统计显著",
+      "url": "https://www.globenewswire.com/news-release/2026/10/29/3391199/0/en/atyr-pharma-announces-publication-of-results-from-the-phase-3-efzo-fit-study-of-efzofitimod-in-pulmonary-sarcoidosis-in-the-lancet-respiratory-medicine.html"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "临床III期/对照试验",
+      "title": "AbbVie TEMPLE研究：atogepant与托吡酯头对头偏头痛预防数据发布",
+      "url": "https://www.biospace.com/press-releases/abbvie-temple-study-demonstrates-superior-tolerability-and-efficacy-of-atogepant-qulipta-in-head-to-head-migraine-prevention-trial"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "临床III期/新试验",
+      "title": "Sanofi启动流感+COVΙD-19联合疫苗III期，Novavax获得1.25亿美元合同里程碑",
+      "url": "https://www.prnewswire.com/news-releases/novavax-earns-125-million-milestone-as-sanofi-launches-phase-3-influenza-covid-19-combination-vaccine-trial-in-europe-302923786.html"
+    },
+    {
+      "date": "2026-10-29",
+      "category": "FDA/NMPA/CDE/医保",
+      "title": "监管重要新政策/上市批准：本窗口未核验到符合一手公告标准的新增重大事项",
+      "url": "https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications"
+    }
+  ],
+  "verification_notice": "本公告日3笔首次公告；历史合作1笔里程碑修订单列。Laurus交易金额从二级摘要获得，初级上市公司披露目录核实交易存在，待官方附件逐项核对。"
+}
